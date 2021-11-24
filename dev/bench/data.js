@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1637726179011,
+  "lastUpdate": 1637726914495,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -57,6 +57,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh load time",
             "value": 0.019,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4b4aa73b90224dd5e11041583522248878b5b0b9",
+          "message": "Merge pull request #2485 from yutkat/v39.004\n\ndocs: Update README",
+          "timestamp": "2021-11-24T13:04:44+09:00",
+          "tree_id": "54dd6f2b4c1777172c9eae7955795c98c41f369a",
+          "url": "https://github.com/yutkat/dotfiles/commit/4b4aa73b90224dd5e11041583522248878b5b0b9"
+        },
+        "date": 1637726913933,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.015,
             "unit": "Second"
           }
         ]
