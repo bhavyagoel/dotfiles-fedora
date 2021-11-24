@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1637744469084,
+  "lastUpdate": 1637762852405,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -318,6 +318,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh load time",
             "value": 0.0110526,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "78e1552b9a02e56dd66b08bcf2ced7ad806fb51d",
+          "message": "Merge pull request #2495 from yutkat/v39.015\n\nzsh: Revert the cli-package manager from asdf to zinit",
+          "timestamp": "2021-11-24T23:03:31+09:00",
+          "tree_id": "acdb323b862212fabed90b5f6f790d0c7e6d5579",
+          "url": "https://github.com/yutkat/dotfiles/commit/78e1552b9a02e56dd66b08bcf2ced7ad806fb51d"
+        },
+        "date": 1637762852082,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.0137368,
             "unit": "Second"
           }
         ]
