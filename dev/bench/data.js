@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1637738578117,
+  "lastUpdate": 1637744469084,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -289,6 +289,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh load time",
             "value": 0.0117895,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2969ea011dee3c1490771c8dab1b84d0dababd1a",
+          "message": "Merge pull request #2494 from yutkat/v39.014\n\ngh: Add prs",
+          "timestamp": "2021-11-24T17:57:38+09:00",
+          "tree_id": "d19db273f2c05967d811ef62843756bcc78ecd8a",
+          "url": "https://github.com/yutkat/dotfiles/commit/2969ea011dee3c1490771c8dab1b84d0dababd1a"
+        },
+        "date": 1637744468761,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.0110526,
             "unit": "Second"
           }
         ]
