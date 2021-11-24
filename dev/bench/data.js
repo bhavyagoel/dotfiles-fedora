@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1637727596378,
+  "lastUpdate": 1637729015191,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -115,6 +115,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh load time",
             "value": 0.015,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d08f55e00ad2c9a29107327bd033240b07507def",
+          "message": "Merge pull request #2487 from yutkat/v39.007\n\nCI: Sync README",
+          "timestamp": "2021-11-24T13:40:30+09:00",
+          "tree_id": "02f192019159a9746641eb729d6b6dc34f944e59",
+          "url": "https://github.com/yutkat/dotfiles/commit/d08f55e00ad2c9a29107327bd033240b07507def"
+        },
+        "date": 1637729014907,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.0148333,
             "unit": "Second"
           }
         ]
