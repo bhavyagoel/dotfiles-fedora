@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1637726914495,
+  "lastUpdate": 1637727596378,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -81,6 +81,35 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/yutkat/dotfiles/commit/4b4aa73b90224dd5e11041583522248878b5b0b9"
         },
         "date": 1637726913933,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.015,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3129c77950e7fe1df919dd1c87bd2834cfa88bec",
+          "message": "Merge pull request #2486 from yutkat/v39.006\n\ngh: Fix quick-merge",
+          "timestamp": "2021-11-24T13:16:10+09:00",
+          "tree_id": "9bf0fd0bda3290bb3899d9f95215f367400a5143",
+          "url": "https://github.com/yutkat/dotfiles/commit/3129c77950e7fe1df919dd1c87bd2834cfa88bec"
+        },
+        "date": 1637727595800,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
