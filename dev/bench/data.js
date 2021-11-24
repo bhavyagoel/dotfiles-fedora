@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1637729630012,
+  "lastUpdate": 1637730236234,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -202,6 +202,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh load time",
             "value": 0.0155,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a80421e05b41c53263f2486c5895099edcf75a75",
+          "message": "Merge pull request #2491 from yutkat/v39.011\n\nasdf: Update tmux version",
+          "timestamp": "2021-11-24T14:00:21+09:00",
+          "tree_id": "374456b055c125a092ad7440fcf27049f326711a",
+          "url": "https://github.com/yutkat/dotfiles/commit/a80421e05b41c53263f2486c5895099edcf75a75"
+        },
+        "date": 1637730235909,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.0203333,
             "unit": "Second"
           }
         ]
