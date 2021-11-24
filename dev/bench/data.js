@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1637762852405,
+  "lastUpdate": 1637797744179,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -347,6 +347,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh load time",
             "value": 0.0137368,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fb888547e1c87af7471dfe2f391d456d7ee5cd46",
+          "message": "Merge pull request #2496 from yutkat/v39.016\n\ndocs: Fix the image path",
+          "timestamp": "2021-11-25T08:45:22+09:00",
+          "tree_id": "786eee66e13add2a469d8f1da42ba585ea9a9306",
+          "url": "https://github.com/yutkat/dotfiles/commit/fb888547e1c87af7471dfe2f391d456d7ee5cd46"
+        },
+        "date": 1637797743883,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.0135263,
             "unit": "Second"
           }
         ]
