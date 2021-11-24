@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1637729015191,
+  "lastUpdate": 1637729376483,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -144,6 +144,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh load time",
             "value": 0.0148333,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "340962e76f713f0a6ad4b8c318ec00d4173aa83f",
+          "message": "Merge pull request #2489 from yutkat/v39.009\n\ngh: Fix the shell syntax",
+          "timestamp": "2021-11-24T13:46:25+09:00",
+          "tree_id": "f1cd812ac849655b8d3f2fc837ead313c8c12630",
+          "url": "https://github.com/yutkat/dotfiles/commit/340962e76f713f0a6ad4b8c318ec00d4173aa83f"
+        },
+        "date": 1637729376182,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.0151667,
             "unit": "Second"
           }
         ]
