@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1637797744179,
+  "lastUpdate": 1637799208367,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -376,6 +376,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh load time",
             "value": 0.0135263,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "98a3d2b863e3a6a5f0b6095f996c91ac8e8b425d",
+          "message": "Merge pull request #2497 from yutkat/v39.017\n\nCI: Fix the benchmark",
+          "timestamp": "2021-11-25T09:08:42+09:00",
+          "tree_id": "9d1d230a75008a1e28ce91ccb9682e477dd24fb1",
+          "url": "https://github.com/yutkat/dotfiles/commit/98a3d2b863e3a6a5f0b6095f996c91ac8e8b425d"
+        },
+        "date": 1637799207798,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.21,
             "unit": "Second"
           }
         ]
