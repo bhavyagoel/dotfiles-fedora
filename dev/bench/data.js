@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1637806549281,
+  "lastUpdate": 1637821054279,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -439,6 +439,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.06,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "583059771f8eeedbad4cd8260f213bed5372a83b",
+          "message": "Merge pull request #2500 from yutkat/v39.020\n\nvim: Test the note plugin",
+          "timestamp": "2021-11-25T15:13:57+09:00",
+          "tree_id": "55c6399d536451dc1cf10aefbb061ebef702ea01",
+          "url": "https://github.com/yutkat/dotfiles/commit/583059771f8eeedbad4cd8260f213bed5372a83b"
+        },
+        "date": 1637821053711,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.21,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.056,
             "unit": "Second"
           }
         ]
