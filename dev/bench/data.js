@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1637907221906,
+  "lastUpdate": 1637998858078,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -541,6 +541,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.121,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "592f653a823a301ee72d011523b3e2c0b2b741f6",
+          "message": "Merge pull request #2504 from yutkat/v39.024\n\nvim: Remove asyncrun",
+          "timestamp": "2021-11-27T16:37:24+09:00",
+          "tree_id": "0a0b855be7ec6c32717ca4ddeace97f2ea580214",
+          "url": "https://github.com/yutkat/dotfiles/commit/592f653a823a301ee72d011523b3e2c0b2b741f6"
+        },
+        "date": 1637998857791,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.24,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.16,
             "unit": "Second"
           }
         ]
