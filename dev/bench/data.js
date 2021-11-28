@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1638075023042,
+  "lastUpdate": 1638081898131,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -609,6 +609,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.173,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2d2333c79bde1aae05693143f8b47689b2c55961",
+          "message": "Merge pull request #2506 from yutkat/v39.026\n\nvim: Fix color for border on toggleterm",
+          "timestamp": "2021-11-28T15:41:22+09:00",
+          "tree_id": "29ace282785c1507a0e086e27e17d97aaf10f7f2",
+          "url": "https://github.com/yutkat/dotfiles/commit/2d2333c79bde1aae05693143f8b47689b2c55961"
+        },
+        "date": 1638081897807,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.25,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.163,
             "unit": "Second"
           }
         ]
