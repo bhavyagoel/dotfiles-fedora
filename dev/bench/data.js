@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1638081898131,
+  "lastUpdate": 1638152072192,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -643,6 +643,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.163,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c48185713d665bdb032c59a2a816718b1c95b27a",
+          "message": "Merge pull request #2507 from yutkat/v39.027\n\nzsh: Update zsh-autocomplete's config",
+          "timestamp": "2021-11-29T11:10:52+09:00",
+          "tree_id": "c9dbf60285cd702bf1842f7337e75fa23e141132",
+          "url": "https://github.com/yutkat/dotfiles/commit/c48185713d665bdb032c59a2a816718b1c95b27a"
+        },
+        "date": 1638152071856,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.25,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.154,
             "unit": "Second"
           }
         ]
