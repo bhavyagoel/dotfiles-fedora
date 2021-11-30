@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1638152072192,
+  "lastUpdate": 1638247254856,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -677,6 +677,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.154,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "422ca0cc9264aacc29cf534b6c50b5eeb879bffe",
+          "message": "Merge pull request #2508 from yutkat/v39.028\n\nvim: Add the mapping to open the multi-files",
+          "timestamp": "2021-11-30T13:37:36+09:00",
+          "tree_id": "aeab60b97d548fcb82303e827edbbe2fca29ac42",
+          "url": "https://github.com/yutkat/dotfiles/commit/422ca0cc9264aacc29cf534b6c50b5eeb879bffe"
+        },
+        "date": 1638247254535,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.21,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.136,
             "unit": "Second"
           }
         ]
