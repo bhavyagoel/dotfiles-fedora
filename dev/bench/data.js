@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1638857249447,
+  "lastUpdate": 1639048271684,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -813,6 +813,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.147,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3c1fe60e68d52e0750a5ac22fc631cb047d7d853",
+          "message": "Merge pull request #2512 from yutkat/v39.032\n\ni3: Change the app for lockscreen",
+          "timestamp": "2021-12-09T20:06:41+09:00",
+          "tree_id": "bb4d233ea7ac5d97a44d79f70969b00c6a72ff78",
+          "url": "https://github.com/yutkat/dotfiles/commit/3c1fe60e68d52e0750a5ac22fc631cb047d7d853"
+        },
+        "date": 1639048270908,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.26,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.167,
             "unit": "Second"
           }
         ]
