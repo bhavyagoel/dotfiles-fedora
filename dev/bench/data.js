@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1639048271684,
+  "lastUpdate": 1639109338839,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -847,6 +847,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.167,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a833b1242272d6b24ad753fde56bffc0c897bd62",
+          "message": "Merge pull request #2513 from yutkat/v39.033\n\nvim: Add filetype.nvim",
+          "timestamp": "2021-12-10T13:05:38+09:00",
+          "tree_id": "89a792344c236abb6dcb6176942f3d8ac9dd0cec",
+          "url": "https://github.com/yutkat/dotfiles/commit/a833b1242272d6b24ad753fde56bffc0c897bd62"
+        },
+        "date": 1639109338526,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.21,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.138,
             "unit": "Second"
           }
         ]
