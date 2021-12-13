@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1639109338839,
+  "lastUpdate": 1639402177201,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -881,6 +881,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.138,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c7aa19233b0f4c17046e8dc9ae6b77fb3a7ffa16",
+          "message": "Merge pull request #2514 from yutkat/v39.034\n\nvim: Test the plugin",
+          "timestamp": "2021-12-13T22:26:00+09:00",
+          "tree_id": "c913b7f11e9bcbe7cc64d416282860b41445b328",
+          "url": "https://github.com/yutkat/dotfiles/commit/c7aa19233b0f4c17046e8dc9ae6b77fb3a7ffa16"
+        },
+        "date": 1639402176900,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.24,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.15,
             "unit": "Second"
           }
         ]
