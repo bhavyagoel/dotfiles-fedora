@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1639465885528,
+  "lastUpdate": 1639475118260,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -949,6 +949,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.142,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3777eb5e4e66f722e48bedb7c0933ba494ccf6a4",
+          "message": "Merge pull request #2516 from yutkat/v39.036\n\nvim: Try new colorschme",
+          "timestamp": "2021-12-14T18:41:51+09:00",
+          "tree_id": "cbaea20d33b09eff51f53b2b3065d47d29624d01",
+          "url": "https://github.com/yutkat/dotfiles/commit/3777eb5e4e66f722e48bedb7c0933ba494ccf6a4"
+        },
+        "date": 1639475117941,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.21,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.141,
             "unit": "Second"
           }
         ]
