@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1639402177201,
+  "lastUpdate": 1639465885528,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -915,6 +915,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.15,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "86b0342309c07ffdb709668a8c28ba9efa8d7c04",
+          "message": "Merge pull request #2515 from yutkat/v39.035\n\nvim: Add colorscheme",
+          "timestamp": "2021-12-14T16:08:00+09:00",
+          "tree_id": "99071bb5cbac64c07019e4233ec209a4f6536f09",
+          "url": "https://github.com/yutkat/dotfiles/commit/86b0342309c07ffdb709668a8c28ba9efa8d7c04"
+        },
+        "date": 1639465885204,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.21,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.142,
             "unit": "Second"
           }
         ]
