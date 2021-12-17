@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1639475118260,
+  "lastUpdate": 1639715631944,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -983,6 +983,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.141,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ca96f8dc5cb5f13d4e7c97c5d0e69ceaba484b79",
+          "message": "Merge pull request #2517 from yutkat/v39.037\n\nmisc: Update keymap on hawk",
+          "timestamp": "2021-12-17T13:30:31+09:00",
+          "tree_id": "041685b44b9bd8ef50c7dd83a720c76d48120cb3",
+          "url": "https://github.com/yutkat/dotfiles/commit/ca96f8dc5cb5f13d4e7c97c5d0e69ceaba484b79"
+        },
+        "date": 1639715631617,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.21,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.14,
             "unit": "Second"
           }
         ]
