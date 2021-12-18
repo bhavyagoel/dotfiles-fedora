@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1639715631944,
+  "lastUpdate": 1639842808309,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -1017,6 +1017,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.14,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5ee5c00fc4280daf44f647fc9a4a3f0d57c5e007",
+          "message": "Merge pull request #2518 from yutkat/v39.038\n\nvim: Add a plugin for swap",
+          "timestamp": "2021-12-19T00:49:30+09:00",
+          "tree_id": "1dcc15c2efe088b83a993262c1f0c803aa36c814",
+          "url": "https://github.com/yutkat/dotfiles/commit/5ee5c00fc4280daf44f647fc9a4a3f0d57c5e007"
+        },
+        "date": 1639842807632,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.21,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.132,
             "unit": "Second"
           }
         ]
