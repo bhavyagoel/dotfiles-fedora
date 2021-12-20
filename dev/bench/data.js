@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1639842808309,
+  "lastUpdate": 1639992740613,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -1051,6 +1051,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.132,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e053d0a0f06bab61c94867608eeeefb10fa39aea",
+          "message": "Merge pull request #2519 from yutkat/v39.039\n\nvim: Change neoclip config",
+          "timestamp": "2021-12-20T18:28:58+09:00",
+          "tree_id": "cd992487121c7400ca679b5aafd309379da435be",
+          "url": "https://github.com/yutkat/dotfiles/commit/e053d0a0f06bab61c94867608eeeefb10fa39aea"
+        },
+        "date": 1639992740307,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.21,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.134,
             "unit": "Second"
           }
         ]
