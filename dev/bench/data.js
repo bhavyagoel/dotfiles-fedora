@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1639992740613,
+  "lastUpdate": 1640051890645,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -1085,6 +1085,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.134,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "51d93e03eb85fd8931082d31e3f83cb7156a840b",
+          "message": "Merge pull request #2520 from yutkat/v39.040\n\nvim: Fix pluginlist",
+          "timestamp": "2021-12-21T10:54:55+09:00",
+          "tree_id": "674577bab0f8117a5f4beb09350dec1c6e79f526",
+          "url": "https://github.com/yutkat/dotfiles/commit/51d93e03eb85fd8931082d31e3f83cb7156a840b"
+        },
+        "date": 1640051890299,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.21,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.14,
             "unit": "Second"
           }
         ]
