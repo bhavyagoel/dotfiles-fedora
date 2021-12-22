@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1640138940725,
+  "lastUpdate": 1640169448768,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -1187,6 +1187,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.143,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d483d2359a60008ce96fdcdcb8a47807d8649456",
+          "message": "Merge pull request #2523 from yutkat/v39.043\n\nvim: Fix dependency on packer",
+          "timestamp": "2021-12-22T19:34:06+09:00",
+          "tree_id": "eed4cc7dddfef4300bea1033113ac43484426ca3",
+          "url": "https://github.com/yutkat/dotfiles/commit/d483d2359a60008ce96fdcdcb8a47807d8649456"
+        },
+        "date": 1640169448491,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.25,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.166,
             "unit": "Second"
           }
         ]
