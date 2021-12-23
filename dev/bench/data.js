@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1640169448768,
+  "lastUpdate": 1640243263460,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -1221,6 +1221,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.166,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4a81cc5c1a66d12008b19a608d5ee4c8f3e31f45",
+          "message": "Merge pull request #2524 from yutkat/v39.044\n\nvim: Disable indent-blankline by default",
+          "timestamp": "2021-12-23T16:03:23+09:00",
+          "tree_id": "04d345b81f36fdf2a038d337bce264a3471d8d6e",
+          "url": "https://github.com/yutkat/dotfiles/commit/4a81cc5c1a66d12008b19a608d5ee4c8f3e31f45"
+        },
+        "date": 1640243262848,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.25,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.184,
             "unit": "Second"
           }
         ]
