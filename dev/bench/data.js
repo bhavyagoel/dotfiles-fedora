@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1640243263460,
+  "lastUpdate": 1640256219991,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -1255,6 +1255,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.184,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "56bd981679914acb7662a3bf77808647ab124118",
+          "message": "Merge pull request #2525 from yutkat/v39.045\n\nvim: Add plugins",
+          "timestamp": "2021-12-23T19:40:09+09:00",
+          "tree_id": "7f3fd661209fd1062ed22c826ae72a7a9899d5a2",
+          "url": "https://github.com/yutkat/dotfiles/commit/56bd981679914acb7662a3bf77808647ab124118"
+        },
+        "date": 1640256219587,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.26,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.186,
             "unit": "Second"
           }
         ]
