@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1641733361810,
+  "lastUpdate": 1641738042634,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -1357,6 +1357,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.254,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b431318e0bc626aac82161e287a258cd30c4185d",
+          "message": "Merge pull request #2534 from yutkat/v40.002\n\nvim: Change colorsheme to onedark",
+          "timestamp": "2022-01-09T23:17:24+09:00",
+          "tree_id": "8349a1b4e2905942beea9bad775a76210c120017",
+          "url": "https://github.com/yutkat/dotfiles/commit/b431318e0bc626aac82161e287a258cd30c4185d"
+        },
+        "date": 1641738042173,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.08,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.249,
             "unit": "Second"
           }
         ]
