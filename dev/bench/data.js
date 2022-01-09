@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1641670911594,
+  "lastUpdate": 1641733361810,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -1323,6 +1323,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.216,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fa3951b26b2bb5123290c854c6150d9a71020a91",
+          "message": "Merge pull request #2533 from yutkat/v40.001\n\nvim: Change colorsheme to nord",
+          "timestamp": "2022-01-09T21:59:36+09:00",
+          "tree_id": "32fd99d1a9fa688a40a8ed1d15a94b02e3c7ae9f",
+          "url": "https://github.com/yutkat/dotfiles/commit/fa3951b26b2bb5123290c854c6150d9a71020a91"
+        },
+        "date": 1641733361467,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.068,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.254,
             "unit": "Second"
           }
         ]
