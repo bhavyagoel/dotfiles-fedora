@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1641816946832,
+  "lastUpdate": 1641832511682,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -1493,6 +1493,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.133,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "40efb7bb520558593954e38fdef980c704a19ad4",
+          "message": "Merge pull request #2538 from yutkat/v40.006\n\nvim: Change sidebar'sbackground",
+          "timestamp": "2022-01-11T01:31:09+09:00",
+          "tree_id": "e2e51eec4a384c75f2b666e306a91fd58cd1a4a9",
+          "url": "https://github.com/yutkat/dotfiles/commit/40efb7bb520558593954e38fdef980c704a19ad4"
+        },
+        "date": 1641832510848,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.164,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.151,
             "unit": "Second"
           }
         ]
