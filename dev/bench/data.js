@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1641738042634,
+  "lastUpdate": 1641798784090,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -1391,6 +1391,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.249,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "94c5b1918d9b77ca6cb931bacb696a64144b9634",
+          "message": "Merge pull request #2535 from yutkat/v40.003\n\nterminal: Change the terminal to wezterm",
+          "timestamp": "2022-01-10T16:09:37+09:00",
+          "tree_id": "608c35ac85df52c185c43d942046cf0d32e2ab2c",
+          "url": "https://github.com/yutkat/dotfiles/commit/94c5b1918d9b77ca6cb931bacb696a64144b9634"
+        },
+        "date": 1641798783701,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.08,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.253,
             "unit": "Second"
           }
         ]
