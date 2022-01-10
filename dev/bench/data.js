@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1641803720536,
+  "lastUpdate": 1641816946832,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -1459,6 +1459,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.166,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "65365ba6f8bff911d4590452f9bc5a24c18cc92d",
+          "message": "Merge pull request #2537 from yutkat/v40.005\n\nwezterm: Update the shortcut key",
+          "timestamp": "2022-01-10T21:12:05+09:00",
+          "tree_id": "bd2eb3888709f609569cee2ad5abc8d65766b955",
+          "url": "https://github.com/yutkat/dotfiles/commit/65365ba6f8bff911d4590452f9bc5a24c18cc92d"
+        },
+        "date": 1641816946244,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.074,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.133,
             "unit": "Second"
           }
         ]
