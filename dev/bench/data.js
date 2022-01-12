@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1641832511682,
+  "lastUpdate": 1641951106166,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -1527,6 +1527,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.151,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bfde2b7be22b360df373e9f451bdcb092c373db2",
+          "message": "Merge pull request #2539 from yutkat/v40.007\n\nvim: Fix mappings",
+          "timestamp": "2022-01-12T10:28:14+09:00",
+          "tree_id": "116e5f7460cd339b5c5240e7df645b80ba87c987",
+          "url": "https://github.com/yutkat/dotfiles/commit/bfde2b7be22b360df373e9f451bdcb092c373db2"
+        },
+        "date": 1641951105817,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.074,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.143,
             "unit": "Second"
           }
         ]
