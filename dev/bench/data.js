@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1641981773902,
+  "lastUpdate": 1642037429254,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -1629,6 +1629,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.163,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0a1aa37d5e5d513c16cd6d2fc5ef66201eabbf89",
+          "message": "Merge pull request #2542 from yutkat/v40.010\n\nvim: Change packer's compile directory",
+          "timestamp": "2022-01-13T10:25:54+09:00",
+          "tree_id": "75fe3db4ec012396cf9a9c47c43349333f722e9d",
+          "url": "https://github.com/yutkat/dotfiles/commit/0a1aa37d5e5d513c16cd6d2fc5ef66201eabbf89"
+        },
+        "date": 1642037428655,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.166,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.193,
             "unit": "Second"
           }
         ]
