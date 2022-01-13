@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642048817732,
+  "lastUpdate": 1642055434598,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -1697,6 +1697,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.189,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "076cb54276dda760a9528bd2a43411e565b60c3d",
+          "message": "Merge pull request #2544 from yutkat/v40.012\n\nzsh: Change the path for tealdeer",
+          "timestamp": "2022-01-13T15:27:45+09:00",
+          "tree_id": "a8d9582e992498aefcbc8fa139e3698d5615ca52",
+          "url": "https://github.com/yutkat/dotfiles/commit/076cb54276dda760a9528bd2a43411e565b60c3d"
+        },
+        "date": 1642055434287,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.21,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.121,
             "unit": "Second"
           }
         ]
