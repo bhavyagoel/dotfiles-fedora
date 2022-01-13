@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642061740596,
+  "lastUpdate": 1642089150635,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -1765,6 +1765,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.114,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f2dd64b389cbd5a677e7ac59e0791dca91a78f8e",
+          "message": "Merge pull request #2546 from yutkat/v40.014\n\ninstaller: Support gitpod",
+          "timestamp": "2022-01-14T00:48:34+09:00",
+          "tree_id": "8941ddb4805203ee247df566036d39470bc5b1b4",
+          "url": "https://github.com/yutkat/dotfiles/commit/f2dd64b389cbd5a677e7ac59e0791dca91a78f8e"
+        },
+        "date": 1642089149978,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.26,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.169,
             "unit": "Second"
           }
         ]
