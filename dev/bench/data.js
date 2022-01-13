@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642055434598,
+  "lastUpdate": 1642061740596,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -1731,6 +1731,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.121,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ce8af9de95239dccbfed104bf43e71ace1687095",
+          "message": "Merge pull request #2545 from yutkat/v40.013\n\nvim: Being disable which-key",
+          "timestamp": "2022-01-13T17:12:03+09:00",
+          "tree_id": "71248e5369c2e778c783903d17727ea92c7634dd",
+          "url": "https://github.com/yutkat/dotfiles/commit/ce8af9de95239dccbfed104bf43e71ace1687095"
+        },
+        "date": 1642061740037,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.19,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.114,
             "unit": "Second"
           }
         ]
