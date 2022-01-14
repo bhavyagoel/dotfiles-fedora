@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642132890230,
+  "lastUpdate": 1642152129471,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -1833,6 +1833,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.119,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "67a4d7f1c8ffba987764a7b08d8d2d5991a707bc",
+          "message": "Merge pull request #2548 from yutkat/v40.016\n\nvim: Add task-runner status to statusline",
+          "timestamp": "2022-01-14T18:19:09+09:00",
+          "tree_id": "f113edcbaab123e21406cc49b5a59b3273157be7",
+          "url": "https://github.com/yutkat/dotfiles/commit/67a4d7f1c8ffba987764a7b08d8d2d5991a707bc"
+        },
+        "date": 1642152128893,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.28,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.132,
             "unit": "Second"
           }
         ]
