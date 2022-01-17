@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642409093627,
+  "lastUpdate": 1642427581017,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -2071,6 +2071,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.133,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "951ad8452a0f9f4570c95b76fe205095158afb6f",
+          "message": "Merge pull request #2555 from yutkat/v41.006\n\nvim: Update nvim-tree's config",
+          "timestamp": "2022-01-17T22:49:47+09:00",
+          "tree_id": "fe696e07559cd44894a5175845defb819b301142",
+          "url": "https://github.com/yutkat/dotfiles/commit/951ad8452a0f9f4570c95b76fe205095158afb6f"
+        },
+        "date": 1642427580648,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.25,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.116,
             "unit": "Second"
           }
         ]
