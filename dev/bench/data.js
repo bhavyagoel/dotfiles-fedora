@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642387779810,
+  "lastUpdate": 1642395906160,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -2003,6 +2003,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.132,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5bf98668752f97ee72775639dee527a2e37ff1a3",
+          "message": "Merge pull request #2553 from yutkat/v41.004\n\nvim: Apply virtualenv",
+          "timestamp": "2022-01-17T13:59:41+09:00",
+          "tree_id": "5d3f7004d8538050e6c2e248661ce67658b7b418",
+          "url": "https://github.com/yutkat/dotfiles/commit/5bf98668752f97ee72775639dee527a2e37ff1a3"
+        },
+        "date": 1642395905513,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.24,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.118,
             "unit": "Second"
           }
         ]
