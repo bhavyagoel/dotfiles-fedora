@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642395906160,
+  "lastUpdate": 1642409093627,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -2037,6 +2037,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.118,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "daa74211100f017f58cb1fb223d62c6feb559685",
+          "message": "Merge pull request #2554 from yutkat/v41.005\n\nvim: Fix pyright",
+          "timestamp": "2022-01-17T17:40:58+09:00",
+          "tree_id": "756869f8cbe30390b80abcf37850634a1988e720",
+          "url": "https://github.com/yutkat/dotfiles/commit/daa74211100f017f58cb1fb223d62c6feb559685"
+        },
+        "date": 1642409092988,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.28,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.133,
             "unit": "Second"
           }
         ]
