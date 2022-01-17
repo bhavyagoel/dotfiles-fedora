@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642435709265,
+  "lastUpdate": 1642445830420,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -2139,6 +2139,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.124,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "435246f7854506c0541c1bcc60ebbb77d28236a3",
+          "message": "Merge pull request #2557 from yutkat/v41.008\n\nvim: Update Luasnip's config",
+          "timestamp": "2022-01-18T03:54:14+09:00",
+          "tree_id": "057706a89360e15ffc74aeed971ff3d119bdb5cf",
+          "url": "https://github.com/yutkat/dotfiles/commit/435246f7854506c0541c1bcc60ebbb77d28236a3"
+        },
+        "date": 1642445830024,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.23,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.102,
             "unit": "Second"
           }
         ]
