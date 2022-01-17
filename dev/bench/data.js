@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642384536283,
+  "lastUpdate": 1642387779810,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -1969,6 +1969,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.127,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2e41b7eb94ca93909a2c90824cd4ead1f3fdae3a",
+          "message": "Merge pull request #2552 from yutkat/v41.003\n\nvim: Add null-ls",
+          "timestamp": "2022-01-17T11:44:32+09:00",
+          "tree_id": "fcee0ddbec2437de0c7829bc9b5b29c235981eb3",
+          "url": "https://github.com/yutkat/dotfiles/commit/2e41b7eb94ca93909a2c90824cd4ead1f3fdae3a"
+        },
+        "date": 1642387779497,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.42,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.132,
             "unit": "Second"
           }
         ]
