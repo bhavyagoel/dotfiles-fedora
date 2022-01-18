@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642528400286,
+  "lastUpdate": 1642528513566,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -2343,6 +2343,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.145,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d2245204337e22f502be658154245ad79f4ba554",
+          "message": "Merge pull request #2563 from yutkat/v41.014\n\nvim: Remove the coc related code",
+          "timestamp": "2022-01-19T02:50:17+09:00",
+          "tree_id": "822ed06ba3c12028f334ea292a2fc59db8aeaade",
+          "url": "https://github.com/yutkat/dotfiles/commit/d2245204337e22f502be658154245ad79f4ba554"
+        },
+        "date": 1642528513128,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.23,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.112,
             "unit": "Second"
           }
         ]
