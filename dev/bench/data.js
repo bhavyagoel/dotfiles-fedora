@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642491444371,
+  "lastUpdate": 1642497557920,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -2275,6 +2275,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.112,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0073170a8073b5bbb10eacbb2aa8c7ff6d5f3dc2",
+          "message": "Merge pull request #2561 from yutkat/v41.012\n\nvim: Fix mappings on insert mode",
+          "timestamp": "2022-01-18T18:14:07+09:00",
+          "tree_id": "b31fd810cdb050629631ec8bd1896d5e32da4b52",
+          "url": "https://github.com/yutkat/dotfiles/commit/0073170a8073b5bbb10eacbb2aa8c7ff6d5f3dc2"
+        },
+        "date": 1642497557276,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.27,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.118,
             "unit": "Second"
           }
         ]
