@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642528513566,
+  "lastUpdate": 1642570794402,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -2377,6 +2377,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.112,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "00e17bdfbc83f5bf29c5c9b4f25db7125461ac19",
+          "message": "Merge pull request #2564 from yutkat/v41.015\n\nvim: Fix the <CR> mapping for insert mode",
+          "timestamp": "2022-01-19T14:37:12+09:00",
+          "tree_id": "32b41481047c0a2165cc4fd1f235f2fd92ce910e",
+          "url": "https://github.com/yutkat/dotfiles/commit/00e17bdfbc83f5bf29c5c9b4f25db7125461ac19"
+        },
+        "date": 1642570794127,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.091,
             "unit": "Second"
           }
         ]
