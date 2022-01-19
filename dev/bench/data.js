@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642579253606,
+  "lastUpdate": 1642585605423,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -2445,6 +2445,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.1,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6df44101d96f395421ff7723782bf201456df0e1",
+          "message": "Merge pull request #2566 from yutkat/v41.017\n\nvim: Temporary fix for latest treesitter",
+          "timestamp": "2022-01-19T18:43:51+09:00",
+          "tree_id": "c82786e76a7e3791698405c880cb4d6fb8bb32a1",
+          "url": "https://github.com/yutkat/dotfiles/commit/6df44101d96f395421ff7723782bf201456df0e1"
+        },
+        "date": 1642585605124,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.21,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.101,
             "unit": "Second"
           }
         ]
