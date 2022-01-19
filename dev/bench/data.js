@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642570794402,
+  "lastUpdate": 1642579253606,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -2411,6 +2411,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.091,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8a5d91f2ca10c061f61d179095e005f22bdff466",
+          "message": "Merge pull request #2565 from yutkat/v41.016\n\nvim: Reenable nvim-gps",
+          "timestamp": "2022-01-19T16:56:45+09:00",
+          "tree_id": "cc968bba04b45e458190dd537dfbf33c1b5ff569",
+          "url": "https://github.com/yutkat/dotfiles/commit/8a5d91f2ca10c061f61d179095e005f22bdff466"
+        },
+        "date": 1642579253272,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.21,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.1,
             "unit": "Second"
           }
         ]
