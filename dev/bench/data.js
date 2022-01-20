@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642637387292,
+  "lastUpdate": 1642642095415,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -2513,6 +2513,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.161,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9b4ab02259e505d39cdcb4fd3d9b7ec281f23851",
+          "message": "Merge pull request #2568 from yutkat/v41.019\n\nvim: Disable the mappings using pumvisible",
+          "timestamp": "2022-01-20T10:24:33+09:00",
+          "tree_id": "00e57675a1c8809380ff8eecd7d6eab0d64b8600",
+          "url": "https://github.com/yutkat/dotfiles/commit/9b4ab02259e505d39cdcb4fd3d9b7ec281f23851"
+        },
+        "date": 1642642094832,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.24,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.11,
             "unit": "Second"
           }
         ]
