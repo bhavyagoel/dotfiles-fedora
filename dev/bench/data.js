@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642585605423,
+  "lastUpdate": 1642637387292,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -2479,6 +2479,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.101,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "563c0ea183de8db3851d5719830878c7a1ff526d",
+          "message": "Merge pull request #2567 from yutkat/v41.018\n\nvim: Re-enable treesitter plugins",
+          "timestamp": "2022-01-20T09:04:51+09:00",
+          "tree_id": "b3763a600ef51896ba01800eee4954ed4e576559",
+          "url": "https://github.com/yutkat/dotfiles/commit/563c0ea183de8db3851d5719830878c7a1ff526d"
+        },
+        "date": 1642637386984,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.53,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.161,
             "unit": "Second"
           }
         ]
