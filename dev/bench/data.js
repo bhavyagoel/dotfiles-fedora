@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642642095415,
+  "lastUpdate": 1642674527896,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -2547,6 +2547,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.11,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f9e04c7f4801833a99410a3adf73aeb02dfa8588",
+          "message": "Merge pull request #2569 from yutkat/v41.020\n\nvim: Re-enable teesitter-textobj",
+          "timestamp": "2022-01-20T19:25:20+09:00",
+          "tree_id": "e98ab937e815de6cc92c41881df5b92022941d3b",
+          "url": "https://github.com/yutkat/dotfiles/commit/f9e04c7f4801833a99410a3adf73aeb02dfa8588"
+        },
+        "date": 1642674527501,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.084,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.181,
             "unit": "Second"
           }
         ]
