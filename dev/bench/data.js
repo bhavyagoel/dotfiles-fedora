@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642674527896,
+  "lastUpdate": 1642728477344,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -2581,6 +2581,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.181,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0b47fad80ed2afbb76a40568b43e9c517265cfdb",
+          "message": "Merge pull request #2570 from yutkat/v41.021\n\nvim: Add snippets for LuaSnip",
+          "timestamp": "2022-01-21T10:23:23+09:00",
+          "tree_id": "a4270d727e25c73983d6c2407d5f8ccaa25e1281",
+          "url": "https://github.com/yutkat/dotfiles/commit/0b47fad80ed2afbb76a40568b43e9c517265cfdb"
+        },
+        "date": 1642728476931,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.076,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.111,
             "unit": "Second"
           }
         ]
