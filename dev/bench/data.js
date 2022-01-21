@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642728477344,
+  "lastUpdate": 1642732819926,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -2615,6 +2615,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.111,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e7b03da5ea878ed59a6c8091bb621dd87ce53ba6",
+          "message": "Merge pull request #2571 from yutkat/v41.022\n\nvim: Fix the mapping for lspsaga",
+          "timestamp": "2022-01-21T11:35:26+09:00",
+          "tree_id": "742644ec107b51e161d8a1b435eee5010d45e645",
+          "url": "https://github.com/yutkat/dotfiles/commit/e7b03da5ea878ed59a6c8091bb621dd87ce53ba6"
+        },
+        "date": 1642732819626,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.094,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.131,
             "unit": "Second"
           }
         ]
