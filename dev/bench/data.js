@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642732819926,
+  "lastUpdate": 1642918498734,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -2649,6 +2649,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.131,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5c54b666b39d511c01daaf24ac8c1982c872c421",
+          "message": "Merge pull request #2572 from yutkat/v41.023\n\nvim: Add comment-box",
+          "timestamp": "2022-01-23T15:10:12+09:00",
+          "tree_id": "4b03d5ad308d306d4be9c9e12d1e169d90e17956",
+          "url": "https://github.com/yutkat/dotfiles/commit/5c54b666b39d511c01daaf24ac8c1982c872c421"
+        },
+        "date": 1642918498447,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.072,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.118,
             "unit": "Second"
           }
         ]
