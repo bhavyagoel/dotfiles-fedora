@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642918498734,
+  "lastUpdate": 1642920942615,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -2683,6 +2683,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.118,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3204b3fb85dba2ad41c1ea43e1aa5fc585e777d9",
+          "message": "Merge pull request #2573 from yutkat/v41.024\n\nvim: Try ftFt.nvim",
+          "timestamp": "2022-01-23T15:50:42+09:00",
+          "tree_id": "0ed1276a4243b27df63ac6510d7950d6fe397be3",
+          "url": "https://github.com/yutkat/dotfiles/commit/3204b3fb85dba2ad41c1ea43e1aa5fc585e777d9"
+        },
+        "date": 1642920942048,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.08,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.115,
             "unit": "Second"
           }
         ]
