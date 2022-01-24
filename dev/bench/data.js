@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642920942615,
+  "lastUpdate": 1643034536126,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -2717,6 +2717,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.115,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "89f3874f5d97328b51da732c46adf5ba2c0d78d1",
+          "message": "Merge pull request #2574 from yutkat/v41.025\n\nvim: Update cmp",
+          "timestamp": "2022-01-24T23:25:32+09:00",
+          "tree_id": "3c277ba98f0bb90f7be97dc0f93eeca1b9d4424b",
+          "url": "https://github.com/yutkat/dotfiles/commit/89f3874f5d97328b51da732c46adf5ba2c0d78d1"
+        },
+        "date": 1643034535826,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.078,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.179,
             "unit": "Second"
           }
         ]
