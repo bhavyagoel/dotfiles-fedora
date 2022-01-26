@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1643112741607,
+  "lastUpdate": 1643162688472,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -2853,6 +2853,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.102,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d733bca410f9b1b1bbc5d855f918c3f3889600da",
+          "message": "Merge pull request #2579 from yutkat/v41.029\n\nvim: Update the status color",
+          "timestamp": "2022-01-26T11:00:13+09:00",
+          "tree_id": "a538655af4b5351570cebe90f8f4d6ed5bf05903",
+          "url": "https://github.com/yutkat/dotfiles/commit/d733bca410f9b1b1bbc5d855f918c3f3889600da"
+        },
+        "date": 1643162688197,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.31,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.121,
             "unit": "Second"
           }
         ]
