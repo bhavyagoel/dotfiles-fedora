@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1643192713167,
+  "lastUpdate": 1643263184656,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -2989,6 +2989,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.1,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "78ac6927d9c1fc87e9678fdbcd4283fa70dc1439",
+          "message": "Merge pull request #2583 from yutkat/v41.033\n\nvim: Change lua formatter from lua-format to stylua",
+          "timestamp": "2022-01-27T14:55:06+09:00",
+          "tree_id": "ef1de068b9e552d7673eda7186a3d9851432a087",
+          "url": "https://github.com/yutkat/dotfiles/commit/78ac6927d9c1fc87e9678fdbcd4283fa70dc1439"
+        },
+        "date": 1643263184350,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.41,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.132,
             "unit": "Second"
           }
         ]
