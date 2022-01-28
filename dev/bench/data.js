@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1643348644214,
+  "lastUpdate": 1643349554151,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -3091,6 +3091,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.115,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8df86c2e3630fc6023733428453e64b09fff8297",
+          "message": "Merge pull request #2586 from yutkat/v41.036\n\nvim: Enable zk lsp",
+          "timestamp": "2022-01-28T14:55:11+09:00",
+          "tree_id": "4cc0eaae2b29976e47c83a317e16ecea9a087975",
+          "url": "https://github.com/yutkat/dotfiles/commit/8df86c2e3630fc6023733428453e64b09fff8297"
+        },
+        "date": 1643349553871,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.21,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.1,
             "unit": "Second"
           }
         ]
