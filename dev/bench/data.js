@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1643349554151,
+  "lastUpdate": 1643350058683,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -3125,6 +3125,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.1,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "df69e58f27e65a14847ed3a4da932f0506bf93a3",
+          "message": "Merge pull request #2587 from yutkat/v41.037\n\nvim: Disable orgmode because I cannot use it",
+          "timestamp": "2022-01-28T15:02:55+09:00",
+          "tree_id": "509a715927d9d4ad3fe69fb70e5c30abf566f560",
+          "url": "https://github.com/yutkat/dotfiles/commit/df69e58f27e65a14847ed3a4da932f0506bf93a3"
+        },
+        "date": 1643350058012,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.19,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.147,
             "unit": "Second"
           }
         ]
