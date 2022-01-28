@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1643266563462,
+  "lastUpdate": 1643348644214,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -3057,6 +3057,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.123,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7122fd0d0204049f5ac0c13dc431756cac3e2b20",
+          "message": "Merge pull request #2585 from yutkat/v41.035\n\nvim: Re-enable vim-illuminate",
+          "timestamp": "2022-01-28T14:38:55+09:00",
+          "tree_id": "9d3bf6b6d947e4a7d62bbc79579f1bfcb8f338c6",
+          "url": "https://github.com/yutkat/dotfiles/commit/7122fd0d0204049f5ac0c13dc431756cac3e2b20"
+        },
+        "date": 1643348643628,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.26,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.115,
             "unit": "Second"
           }
         ]
