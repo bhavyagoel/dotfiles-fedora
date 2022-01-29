@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1643436099849,
+  "lastUpdate": 1643456519591,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -3193,6 +3193,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3615bb84e41624f07f0fc04c6e6c141f419d807e",
+          "message": "Merge pull request #2589 from yutkat/v41.039\n\nvim: Fix neogen",
+          "timestamp": "2022-01-29T20:38:48+09:00",
+          "tree_id": "97a7ec592dea7826af7e12c32209c34450981ba0",
+          "url": "https://github.com/yutkat/dotfiles/commit/3615bb84e41624f07f0fc04c6e6c141f419d807e"
+        },
+        "date": 1643456519062,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.2,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.099,
             "unit": "Second"
           }
         ]
