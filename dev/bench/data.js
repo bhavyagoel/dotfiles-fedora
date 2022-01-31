@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1643597386129,
+  "lastUpdate": 1643598633870,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -3329,6 +3329,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.107,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "061237b21c0f025bacc9f1ac9b1444571d8e021d",
+          "message": "Merge pull request #2593 from yutkat/v41.043\n\nvim: Update zknotes",
+          "timestamp": "2022-01-31T12:05:47+09:00",
+          "tree_id": "e75b27e336a3d3171cacf54c06c71d530cca23d7",
+          "url": "https://github.com/yutkat/dotfiles/commit/061237b21c0f025bacc9f1ac9b1444571d8e021d"
+        },
+        "date": 1643598633328,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.21,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.103,
             "unit": "Second"
           }
         ]
