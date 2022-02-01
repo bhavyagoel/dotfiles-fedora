@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1643690969279,
+  "lastUpdate": 1643701050641,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -3465,6 +3465,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.108,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a84eeb4f5c8ab4de49133c8264eda0e70295b07d",
+          "message": "Merge pull request #2597 from yutkat/v41.047\n\nvim: Fix rust-tools",
+          "timestamp": "2022-02-01T16:34:40+09:00",
+          "tree_id": "8e5a34470e49f3165953fab164b2d89b118e6468",
+          "url": "https://github.com/yutkat/dotfiles/commit/a84eeb4f5c8ab4de49133c8264eda0e70295b07d"
+        },
+        "date": 1643701050326,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.2,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.099,
             "unit": "Second"
           }
         ]
