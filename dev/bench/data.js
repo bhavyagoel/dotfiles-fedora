@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1643677135729,
+  "lastUpdate": 1643690969279,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -3431,6 +3431,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.113,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3a989c5a4e03a48289d9969edf65aea0aebeae39",
+          "message": "Merge pull request #2596 from yutkat/v41.046\n\nvim: Change memo tool from zk to telekasten",
+          "timestamp": "2022-02-01T13:44:24+09:00",
+          "tree_id": "d2c7769c8121508048b184c7cdf8506d851b9e0d",
+          "url": "https://github.com/yutkat/dotfiles/commit/3a989c5a4e03a48289d9969edf65aea0aebeae39"
+        },
+        "date": 1643690968710,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.24,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.108,
             "unit": "Second"
           }
         ]
