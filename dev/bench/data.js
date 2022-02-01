@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1643607273983,
+  "lastUpdate": 1643677135729,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -3397,6 +3397,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.1,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "89d42424ceeddf2d1f65e75c072911f9ea49c4b9",
+          "message": "Merge pull request #2595 from yutkat/v41.045\n\nvim: Add stylish.nvim",
+          "timestamp": "2022-02-01T09:54:07+09:00",
+          "tree_id": "4d591f72b54b5b1947fba98402f0b2277aa3ff96",
+          "url": "https://github.com/yutkat/dotfiles/commit/89d42424ceeddf2d1f65e75c072911f9ea49c4b9"
+        },
+        "date": 1643677135397,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.25,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.113,
             "unit": "Second"
           }
         ]
