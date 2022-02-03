@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1643856531560,
+  "lastUpdate": 1643862685925,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -3601,6 +3601,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.096,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8603acaf35b9c77e38aabaa876ee66d4b761c2f3",
+          "message": "Merge pull request #2601 from yutkat/v41.051\n\nwezterm: Add keybinds",
+          "timestamp": "2022-02-03T13:26:46+09:00",
+          "tree_id": "04845d1ce72bb1b0b081bbaec76ea30433abaaf5",
+          "url": "https://github.com/yutkat/dotfiles/commit/8603acaf35b9c77e38aabaa876ee66d4b761c2f3"
+        },
+        "date": 1643862685641,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.25,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.119,
             "unit": "Second"
           }
         ]
