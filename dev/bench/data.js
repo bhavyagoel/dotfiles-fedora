@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1643862685925,
+  "lastUpdate": 1643863002737,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -3635,6 +3635,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.119,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a21fb03175ee03056669e998d2e6a142ea951afd",
+          "message": "Merge pull request #2602 from yutkat/v41.052\n\nsway: Update swaylock",
+          "timestamp": "2022-02-03T13:32:33+09:00",
+          "tree_id": "34e6805e1113fd1da672861dac6273c225f1ada4",
+          "url": "https://github.com/yutkat/dotfiles/commit/a21fb03175ee03056669e998d2e6a142ea951afd"
+        },
+        "date": 1643863001937,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.2,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.095,
             "unit": "Second"
           }
         ]
