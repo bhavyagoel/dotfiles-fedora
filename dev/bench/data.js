@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1643896313622,
+  "lastUpdate": 1643897777211,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -3703,6 +3703,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.1,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "76214789bbd8cfc06b79cf2c135ce2c09d84f83a",
+          "message": "Merge pull request #2604 from yutkat/v41.054\n\ninstaller: Fix to create .local/bin",
+          "timestamp": "2022-02-03T23:11:52+09:00",
+          "tree_id": "aa6a92535338706758e59d62f1cef1fdda089588",
+          "url": "https://github.com/yutkat/dotfiles/commit/76214789bbd8cfc06b79cf2c135ce2c09d84f83a"
+        },
+        "date": 1643897776877,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.33,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.108,
             "unit": "Second"
           }
         ]
