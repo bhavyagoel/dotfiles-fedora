@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1643701050641,
+  "lastUpdate": 1643855058711,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -3499,6 +3499,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.099,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "65e41c8866bf9e90b246837be06997d1b1577d27",
+          "message": "Merge pull request #2598 from yutkat/v41.048\n\nsway: Update flameshot's config",
+          "timestamp": "2022-02-03T11:18:49+09:00",
+          "tree_id": "40d3a74f6676b180497cd39a7dd7fbbf697f5a9b",
+          "url": "https://github.com/yutkat/dotfiles/commit/65e41c8866bf9e90b246837be06997d1b1577d27"
+        },
+        "date": 1643855058072,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.26,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.127,
             "unit": "Second"
           }
         ]
