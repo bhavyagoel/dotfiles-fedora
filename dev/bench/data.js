@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1643856266048,
+  "lastUpdate": 1643856531560,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -3567,6 +3567,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.097,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1b779e5dc0c282046eafba70c74276fb21b6a12b",
+          "message": "Merge pull request #2600 from yutkat/v41.050\n\nwezterm: Update the padding",
+          "timestamp": "2022-02-03T11:44:40+09:00",
+          "tree_id": "43542f4a28e562d2df9658b7f1620674f55334e7",
+          "url": "https://github.com/yutkat/dotfiles/commit/1b779e5dc0c282046eafba70c74276fb21b6a12b"
+        },
+        "date": 1643856531305,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.22,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.096,
             "unit": "Second"
           }
         ]
