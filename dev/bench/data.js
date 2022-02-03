@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1643855058711,
+  "lastUpdate": 1643856266048,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -3533,6 +3533,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.127,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "531ce94ba282d26f8f0d82ddcf50cefc0ffbf018",
+          "message": "Merge pull request #2599 from yutkat/v41.049\n\nwezterm: Fix the absolute path",
+          "timestamp": "2022-02-03T11:40:13+09:00",
+          "tree_id": "fd0666b295b31efe4207d9b0c326f29a0eb1cb3e",
+          "url": "https://github.com/yutkat/dotfiles/commit/531ce94ba282d26f8f0d82ddcf50cefc0ffbf018"
+        },
+        "date": 1643856265732,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.21,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.097,
             "unit": "Second"
           }
         ]
