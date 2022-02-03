@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1643863002737,
+  "lastUpdate": 1643896313622,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -3669,6 +3669,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.095,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "10fcd5dfbdef61e1573d94949e6b3e4831121e7b",
+          "message": "Merge pull request #2603 from yutkat/v41.053\n\nmisc: Remove .bin.local directory",
+          "timestamp": "2022-02-03T22:47:20+09:00",
+          "tree_id": "6eb79fc6418e64051c0ea13a60245bc3ee20b15a",
+          "url": "https://github.com/yutkat/dotfiles/commit/10fcd5dfbdef61e1573d94949e6b3e4831121e7b"
+        },
+        "date": 1643896313029,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.21,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.1,
             "unit": "Second"
           }
         ]
