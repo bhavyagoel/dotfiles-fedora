@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1643897777211,
+  "lastUpdate": 1643940467322,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -3737,6 +3737,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.108,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "27f665740269c5b6b0888b75c0088643ba2980da",
+          "message": "Merge pull request #2605 from yutkat/v41.055\n\ni3: Change the file extension",
+          "timestamp": "2022-02-04T11:03:02+09:00",
+          "tree_id": "bda1bec236eb3df85b51b04752d94f9467fb4643",
+          "url": "https://github.com/yutkat/dotfiles/commit/27f665740269c5b6b0888b75c0088643ba2980da"
+        },
+        "date": 1643940467008,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.24,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.118,
             "unit": "Second"
           }
         ]
