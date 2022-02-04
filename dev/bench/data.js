@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1643986340777,
+  "lastUpdate": 1643988318445,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -3839,6 +3839,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.121,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "76c84f71f6932acfc7ef4af7aebb7ef0ede3a3d9",
+          "message": "Merge pull request #2608 from yutkat/v41.058\n\nvim: Disable the unused plugin",
+          "timestamp": "2022-02-05T00:17:21+09:00",
+          "tree_id": "2deec7000c9e12e6437ea7f11104b3eac06d7d9d",
+          "url": "https://github.com/yutkat/dotfiles/commit/76c84f71f6932acfc7ef4af7aebb7ef0ede3a3d9"
+        },
+        "date": 1643988318100,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.21,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.098,
             "unit": "Second"
           }
         ]
