@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1643940467322,
+  "lastUpdate": 1643955669675,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -3771,6 +3771,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.118,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9c7158a3bbbbf7f50ba8b02cb9a4f84cd71f2a68",
+          "message": "Merge pull request #2606 from yutkat/v41.056\n\nsway: Update lock time",
+          "timestamp": "2022-02-04T15:16:18+09:00",
+          "tree_id": "96d3674c4e484e87efad313e3858d82a0d70ba66",
+          "url": "https://github.com/yutkat/dotfiles/commit/9c7158a3bbbbf7f50ba8b02cb9a4f84cd71f2a68"
+        },
+        "date": 1643955669346,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.37,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.117,
             "unit": "Second"
           }
         ]
