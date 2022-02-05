@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1644045775863,
+  "lastUpdate": 1644046974585,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -3907,6 +3907,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.091,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b73b27245fb0825f452bc1ef184413d3ef895ac4",
+          "message": "Merge pull request #2610 from yutkat/v41.060\n\nvim: Fix lspkind",
+          "timestamp": "2022-02-05T16:38:44+09:00",
+          "tree_id": "8d466db9ced958e3abe6834c597cfb5cec1af9b7",
+          "url": "https://github.com/yutkat/dotfiles/commit/b73b27245fb0825f452bc1ef184413d3ef895ac4"
+        },
+        "date": 1644046974322,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.28,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.104,
             "unit": "Second"
           }
         ]
