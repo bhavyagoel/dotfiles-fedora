@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1643988318445,
+  "lastUpdate": 1644045775863,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -3873,6 +3873,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.098,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b6306efa239f72e6ba15086b683974513a555c94",
+          "message": "Merge pull request #2609 from yutkat/v41.059\n\nsway: Fix the mouse bindkey",
+          "timestamp": "2022-02-05T16:18:23+09:00",
+          "tree_id": "56e63273004ddf18ca50e6d54e9338b1bc2faf2a",
+          "url": "https://github.com/yutkat/dotfiles/commit/b6306efa239f72e6ba15086b683974513a555c94"
+        },
+        "date": 1644045775321,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.2,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.091,
             "unit": "Second"
           }
         ]
