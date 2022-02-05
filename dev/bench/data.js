@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1644048993457,
+  "lastUpdate": 1644072486623,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -3975,6 +3975,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.099,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e28070fc05e0fc2063db69f139b248bc90445e7d",
+          "message": "Merge pull request #2612 from yutkat/v41.062\n\nsway: Update swayidle",
+          "timestamp": "2022-02-05T23:43:29+09:00",
+          "tree_id": "75f60d5bdb18bd657da40827326418fc4855efc2",
+          "url": "https://github.com/yutkat/dotfiles/commit/e28070fc05e0fc2063db69f139b248bc90445e7d"
+        },
+        "date": 1644072486322,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.25,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.112,
             "unit": "Second"
           }
         ]
