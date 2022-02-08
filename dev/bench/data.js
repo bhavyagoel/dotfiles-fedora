@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1644246209669,
+  "lastUpdate": 1644294928241,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -4043,6 +4043,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.1,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4c21bff7163f630c3f59096173ace51855ad6ee9",
+          "message": "Merge pull request #2614 from yutkat/v41.063\n\nvim: Fix neoclip",
+          "timestamp": "2022-02-08T13:32:44+09:00",
+          "tree_id": "9f2c8c3858fea9c5f5fed97a368f8fc9641ae57f",
+          "url": "https://github.com/yutkat/dotfiles/commit/4c21bff7163f630c3f59096173ace51855ad6ee9"
+        },
+        "date": 1644294927971,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.094,
             "unit": "Second"
           }
         ]
