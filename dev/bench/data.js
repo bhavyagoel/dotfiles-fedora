@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1644294928241,
+  "lastUpdate": 1644301170958,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -4077,6 +4077,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.094,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "602b000003299e1f898ed07ef43b5baf5dfbf816",
+          "message": "Merge pull request #2615 from yutkat/v41.064\n\nvim: Fix fidget",
+          "timestamp": "2022-02-08T15:14:37+09:00",
+          "tree_id": "84a5ff3754e3a76551bc04600ee53d8105a6b4ec",
+          "url": "https://github.com/yutkat/dotfiles/commit/602b000003299e1f898ed07ef43b5baf5dfbf816"
+        },
+        "date": 1644301170650,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.53,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.123,
             "unit": "Second"
           }
         ]
