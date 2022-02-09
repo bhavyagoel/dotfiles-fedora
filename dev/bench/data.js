@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1644301170958,
+  "lastUpdate": 1644381818284,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -4111,6 +4111,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.123,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "54fe51f38e4dd6636237ac86e7ddb13a1341c958",
+          "message": "Merge pull request #2616 from yutkat/v41.065\n\nneovim: Change the directory name for project local",
+          "timestamp": "2022-02-09T13:38:44+09:00",
+          "tree_id": "0ad91220d665958c4bf7a6a44b7ff9fee3a99c31",
+          "url": "https://github.com/yutkat/dotfiles/commit/54fe51f38e4dd6636237ac86e7ddb13a1341c958"
+        },
+        "date": 1644381817932,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.3,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.119,
             "unit": "Second"
           }
         ]
