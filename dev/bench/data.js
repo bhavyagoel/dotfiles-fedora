@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1644382032651,
+  "lastUpdate": 1644398900196,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -4179,6 +4179,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.101,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "90c2339f6b5a27fa98617bfa1d62722b03aa8bd2",
+          "message": "Merge pull request #2618 from yutkat/v41.067\n\nsway: Update to use the include statement",
+          "timestamp": "2022-02-09T18:20:28+09:00",
+          "tree_id": "c55a3ccf1c657d310cf41dcdf047486de4f0715f",
+          "url": "https://github.com/yutkat/dotfiles/commit/90c2339f6b5a27fa98617bfa1d62722b03aa8bd2"
+        },
+        "date": 1644398899863,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.41,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.182,
             "unit": "Second"
           }
         ]
