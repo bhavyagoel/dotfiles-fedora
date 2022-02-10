@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1644398900196,
+  "lastUpdate": 1644459263906,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -4213,6 +4213,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.182,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "edf7563085a89fa15d6b2a2c0ae20baa2e9bfab6",
+          "message": "Merge pull request #2619 from yutkat/v41.068\n\nsway: Fix multiple timeout in swayidle",
+          "timestamp": "2022-02-10T11:09:52+09:00",
+          "tree_id": "a93b21ef76996859c446efe6387b6931e5a41def",
+          "url": "https://github.com/yutkat/dotfiles/commit/edf7563085a89fa15d6b2a2c0ae20baa2e9bfab6"
+        },
+        "date": 1644459263622,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.24,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.113,
             "unit": "Second"
           }
         ]
