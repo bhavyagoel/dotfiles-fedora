@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1644734722440,
+  "lastUpdate": 1644742501772,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -4315,6 +4315,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.1,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b3ca68a5245351f76d0e680bf19107c54842f23b",
+          "message": "Merge pull request #2622 from yutkat/v41.071\n\nneovim: Update iron.nvim",
+          "timestamp": "2022-02-13T17:50:29+09:00",
+          "tree_id": "4853503478fbd2862ca2d0bc337edbe667edf130",
+          "url": "https://github.com/yutkat/dotfiles/commit/b3ca68a5245351f76d0e680bf19107c54842f23b"
+        },
+        "date": 1644742501115,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.21,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.099,
             "unit": "Second"
           }
         ]
