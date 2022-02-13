@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1644742501772,
+  "lastUpdate": 1644759361086,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -4349,6 +4349,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.099,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "16962198bbca5cd0d3f443391428e4b3f8e5a98a",
+          "message": "Merge pull request #2623 from yutkat/v41.072\n\nsway: Split base.conf",
+          "timestamp": "2022-02-13T22:31:38+09:00",
+          "tree_id": "0d0d47431decffa0efb1c37b578626190f9dc735",
+          "url": "https://github.com/yutkat/dotfiles/commit/16962198bbca5cd0d3f443391428e4b3f8e5a98a"
+        },
+        "date": 1644759360502,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.09,
             "unit": "Second"
           }
         ]
