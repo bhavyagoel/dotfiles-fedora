@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1644759361086,
+  "lastUpdate": 1644760119823,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -4383,6 +4383,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.09,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8c82dce16657d2c4c0c559596a882a5556391b60",
+          "message": "Merge pull request #2624 from yutkat/v41.073\n\nsway: Update theme in i3status-rust",
+          "timestamp": "2022-02-13T22:43:17+09:00",
+          "tree_id": "4f8bd93e69e6396780a108ef5d001eafdc41437f",
+          "url": "https://github.com/yutkat/dotfiles/commit/8c82dce16657d2c4c0c559596a882a5556391b60"
+        },
+        "date": 1644760119248,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.69,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.134,
             "unit": "Second"
           }
         ]
