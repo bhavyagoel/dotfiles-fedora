@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1644660984160,
+  "lastUpdate": 1644734722440,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -4276,6 +4276,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh load time",
             "value": 0.22,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.1,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3940d249d02c0429ead61262979955111fd864d8",
+          "message": "Merge pull request #2621 from yutkat/v41.070\n\nneovim: Fix the related textobj",
+          "timestamp": "2022-02-13T15:42:07+09:00",
+          "tree_id": "89feadff905f51f35eafe541425ba1a57b51432c",
+          "url": "https://github.com/yutkat/dotfiles/commit/3940d249d02c0429ead61262979955111fd864d8"
+        },
+        "date": 1644734721889,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.2,
             "unit": "Second"
           },
           {
