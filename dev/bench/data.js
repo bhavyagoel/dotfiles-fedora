@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1644920438517,
+  "lastUpdate": 1644920844632,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -4553,6 +4553,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.113,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "933f27eec7d979d801faf7d4f83d109dbec22dad",
+          "message": "Merge pull request #2629 from yutkat/v41.078\n\nneovim: Use nlsp-settings to lua",
+          "timestamp": "2022-02-15T19:21:32+09:00",
+          "tree_id": "f323b83af86e95d9a63f9298a753bd2c69cd9283",
+          "url": "https://github.com/yutkat/dotfiles/commit/933f27eec7d979d801faf7d4f83d109dbec22dad"
+        },
+        "date": 1644920843970,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.45,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.165,
             "unit": "Second"
           }
         ]
