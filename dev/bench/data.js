@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1644889676082,
+  "lastUpdate": 1644920438517,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -4519,6 +4519,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.12,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0f823ecf027f331a878fbdd59831728fc2abd4ee",
+          "message": "Merge pull request #2628 from yutkat/v41.077\n\nneovim: Fix the plugin depnedency",
+          "timestamp": "2022-02-15T19:15:57+09:00",
+          "tree_id": "f8022f5c5bc7a99e9b3dbf3d653c73fe63600a4d",
+          "url": "https://github.com/yutkat/dotfiles/commit/0f823ecf027f331a878fbdd59831728fc2abd4ee"
+        },
+        "date": 1644920438200,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.23,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.113,
             "unit": "Second"
           }
         ]
