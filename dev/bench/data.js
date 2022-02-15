@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1644816435395,
+  "lastUpdate": 1644889676082,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -4485,6 +4485,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.099,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cc9d7f70d7bc37b59ec6c42dca2ba28310d90f43",
+          "message": "Merge pull request #2627 from yutkat/v41.076\n\nneovim: Add lightspeed",
+          "timestamp": "2022-02-15T10:40:17+09:00",
+          "tree_id": "803411c8c83eb7676895cc5ff013ba6e394a3f39",
+          "url": "https://github.com/yutkat/dotfiles/commit/cc9d7f70d7bc37b59ec6c42dca2ba28310d90f43"
+        },
+        "date": 1644889674290,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.37,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.12,
             "unit": "Second"
           }
         ]
