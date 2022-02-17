@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1644933349382,
+  "lastUpdate": 1645068618239,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -4621,6 +4621,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.103,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "611ff8a56f7b6884965cd7bd5b8add5e11b6ca4a",
+          "message": "Merge pull request #2631 from yutkat/v41.080\n\nneovim: Update the lua snippets",
+          "timestamp": "2022-02-17T12:27:23+09:00",
+          "tree_id": "9fe0f30ada83e8d0cada2ac252a09a7181a2a0e6",
+          "url": "https://github.com/yutkat/dotfiles/commit/611ff8a56f7b6884965cd7bd5b8add5e11b6ca4a"
+        },
+        "date": 1645068617934,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.2,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.09,
             "unit": "Second"
           }
         ]
