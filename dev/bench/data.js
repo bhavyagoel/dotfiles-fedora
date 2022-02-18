@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1645147284829,
+  "lastUpdate": 1645148346358,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -4689,6 +4689,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.111,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a9811ded296d7918b289c16e1c4d7e5c2f338edc",
+          "message": "Merge pull request #2633 from yutkat/v41.082\n\nCI: Update the centos base image to stream",
+          "timestamp": "2022-02-18T10:34:26+09:00",
+          "tree_id": "0f866b9dd069fd2fe32667e6d019a11fe62c781e",
+          "url": "https://github.com/yutkat/dotfiles/commit/a9811ded296d7918b289c16e1c4d7e5c2f338edc"
+        },
+        "date": 1645148345796,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.23,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.093,
             "unit": "Second"
           }
         ]
