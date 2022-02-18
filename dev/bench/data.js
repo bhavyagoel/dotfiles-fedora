@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1645068618239,
+  "lastUpdate": 1645147284829,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -4655,6 +4655,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.09,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0f0160fd45a69cacb6bcbd108f3de89be5d53cd5",
+          "message": "Merge pull request #2632 from yutkat/v41.081\n\nneovim: Add the csv plugin",
+          "timestamp": "2022-02-18T10:18:05+09:00",
+          "tree_id": "3541a61e3cd4869e16a13bf6fb9d1558a8f4816e",
+          "url": "https://github.com/yutkat/dotfiles/commit/0f0160fd45a69cacb6bcbd108f3de89be5d53cd5"
+        },
+        "date": 1645147284546,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.24,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.111,
             "unit": "Second"
           }
         ]
