@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1645148346358,
+  "lastUpdate": 1645281826089,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -4723,6 +4723,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.093,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b18c19234a344fd9d61d5f623cd41e6778529013",
+          "message": "Merge pull request #2634 from yutkat/v41.083\n\nneovim: Add taskrun.nvim",
+          "timestamp": "2022-02-19T23:39:00+09:00",
+          "tree_id": "58acca558c303b041527fbb44f7917858bd7e3d6",
+          "url": "https://github.com/yutkat/dotfiles/commit/b18c19234a344fd9d61d5f623cd41e6778529013"
+        },
+        "date": 1645281825741,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.24,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.115,
             "unit": "Second"
           }
         ]
