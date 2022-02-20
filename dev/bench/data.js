@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1645281826089,
+  "lastUpdate": 1645374903333,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -4757,6 +4757,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.115,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b2c355438a8e544ba65098cc99769aece9374b09",
+          "message": "Merge pull request #2635 from yutkat/v41.084\n\nneovim: Add treesitter playgroud plugin",
+          "timestamp": "2022-02-21T01:30:48+09:00",
+          "tree_id": "ec10c32e2f72ec38113256ccc7eeb1ceca76036b",
+          "url": "https://github.com/yutkat/dotfiles/commit/b2c355438a8e544ba65098cc99769aece9374b09"
+        },
+        "date": 1645374903028,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.2,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.096,
             "unit": "Second"
           }
         ]
