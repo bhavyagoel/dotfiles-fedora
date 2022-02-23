@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1645418194212,
+  "lastUpdate": 1645642101384,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -4927,6 +4927,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.118,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ea281198b6a1686f1d8055be97155a6560085639",
+          "message": "Merge pull request #2640 from yutkat/v42.000\n\nwezterm: Use as a terminal multiplexer",
+          "timestamp": "2022-02-24T03:44:00+09:00",
+          "tree_id": "568bdbae9aeff7e5d9dedfb487f6fae093bec001",
+          "url": "https://github.com/yutkat/dotfiles/commit/ea281198b6a1686f1d8055be97155a6560085639"
+        },
+        "date": 1645642100713,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.08,
             "unit": "Second"
           }
         ]
