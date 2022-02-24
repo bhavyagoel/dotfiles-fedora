@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1645682265191,
+  "lastUpdate": 1645722662133,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -5063,6 +5063,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.098,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b18c510d496c44f9e71080c06301013f88aa8f08",
+          "message": "Merge pull request #2644 from yutkat/v42.004\n\nneovim: Update nvim-cmp",
+          "timestamp": "2022-02-25T02:07:29+09:00",
+          "tree_id": "10d9c98334a0c2941582975614546111531bdd04",
+          "url": "https://github.com/yutkat/dotfiles/commit/b18c510d496c44f9e71080c06301013f88aa8f08"
+        },
+        "date": 1645722661723,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.25,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.11,
             "unit": "Second"
           }
         ]
