@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1645666188533,
+  "lastUpdate": 1645668823268,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -4995,6 +4995,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.091,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "df16b7dedefb4649ab8bb472093eaf7fe01b4f85",
+          "message": "Merge pull request #2642 from yutkat/v42.002\n\nwezterm: Add the feature for dynamic keymap",
+          "timestamp": "2022-02-24T11:10:34+09:00",
+          "tree_id": "0f627b6ae41bb457990b585343f88260df6994a6",
+          "url": "https://github.com/yutkat/dotfiles/commit/df16b7dedefb4649ab8bb472093eaf7fe01b4f85"
+        },
+        "date": 1645668822735,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.2,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.09,
             "unit": "Second"
           }
         ]
