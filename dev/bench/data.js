@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1645642101384,
+  "lastUpdate": 1645666188533,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -4961,6 +4961,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.08,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "34dda1d39a2f3d082ef4d3fa63554cd19cd50a11",
+          "message": "Merge pull request #2641 from yutkat/v42.001\n\nsway: Change the default multiplexer from tmux to wazterm",
+          "timestamp": "2022-02-24T10:26:48+09:00",
+          "tree_id": "ae4c3628f9b280a47200d420fb6d3cc54c7d1daa",
+          "url": "https://github.com/yutkat/dotfiles/commit/34dda1d39a2f3d082ef4d3fa63554cd19cd50a11"
+        },
+        "date": 1645666188195,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.2,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.091,
             "unit": "Second"
           }
         ]
