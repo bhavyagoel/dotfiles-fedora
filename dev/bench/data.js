@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1645722662133,
+  "lastUpdate": 1645755011920,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -5097,6 +5097,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.11,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "757f77f2ada0fbe946eec9f81f32539c04df593c",
+          "message": "Merge pull request #2645 from yutkat/v42.005\n\nwezterm: Add the visual bell config",
+          "timestamp": "2022-02-25T11:06:59+09:00",
+          "tree_id": "c23b502de7c73f194418f45dfbebeace380ca3c7",
+          "url": "https://github.com/yutkat/dotfiles/commit/757f77f2ada0fbe946eec9f81f32539c04df593c"
+        },
+        "date": 1645755011563,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.24,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.111,
             "unit": "Second"
           }
         ]
