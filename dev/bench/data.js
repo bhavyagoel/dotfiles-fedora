@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1646099105311,
+  "lastUpdate": 1646099881651,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -5165,6 +5165,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.108,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "405c1a6a14f0e67a0e2033f1ed5953c11268b64c",
+          "message": "Merge pull request #2654 from yutkat/v42.014\n\nzsh: Fix the binary downloader for neovim",
+          "timestamp": "2022-03-01T10:40:51+09:00",
+          "tree_id": "a787839b553bf05bc6272ad3177de0af4238ef52",
+          "url": "https://github.com/yutkat/dotfiles/commit/405c1a6a14f0e67a0e2033f1ed5953c11268b64c"
+        },
+        "date": 1646099881323,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.21,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.106,
             "unit": "Second"
           }
         ]
