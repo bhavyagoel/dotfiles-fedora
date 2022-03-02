@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1646195522848,
+  "lastUpdate": 1646205965986,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -5267,6 +5267,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.119,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f9b9ed6c4dd86cf64c714daa7126c847082af7fd",
+          "message": "Merge pull request #2657 from yutkat/v42.017\n\nzsh: Add search_command function",
+          "timestamp": "2022-03-02T16:19:59+09:00",
+          "tree_id": "6a2454d1cbeaa152f15a8af4baea863b317e2355",
+          "url": "https://github.com/yutkat/dotfiles/commit/f9b9ed6c4dd86cf64c714daa7126c847082af7fd"
+        },
+        "date": 1646205965684,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.21,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.091,
             "unit": "Second"
           }
         ]
