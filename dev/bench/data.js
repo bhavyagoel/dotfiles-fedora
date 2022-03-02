@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1646205965986,
+  "lastUpdate": 1646239493679,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -5301,6 +5301,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.091,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d0093ab89ab535f623fbd53c83a43cf7818cc5b3",
+          "message": "Merge pull request #2658 from yutkat/v42.018\n\nneovim: Fix csv",
+          "timestamp": "2022-03-03T01:39:58+09:00",
+          "tree_id": "2f62029affe0a869a439a1188efa48244998fd24",
+          "url": "https://github.com/yutkat/dotfiles/commit/d0093ab89ab535f623fbd53c83a43cf7818cc5b3"
+        },
+        "date": 1646239493367,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.25,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.12,
             "unit": "Second"
           }
         ]
