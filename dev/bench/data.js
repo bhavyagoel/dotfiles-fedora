@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1646188214587,
+  "lastUpdate": 1646195522848,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -5233,6 +5233,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "485892e7c5f7fe19cd336369f77aa0264155990f",
+          "message": "Merge pull request #2656 from yutkat/v42.016\n\nneovim: Fix autocmd api",
+          "timestamp": "2022-03-02T13:23:47+09:00",
+          "tree_id": "0aa07c8c1e2d1ea8db05fa2b5e22ef6ea17e80fe",
+          "url": "https://github.com/yutkat/dotfiles/commit/485892e7c5f7fe19cd336369f77aa0264155990f"
+        },
+        "date": 1646195522195,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.64,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.119,
             "unit": "Second"
           }
         ]
