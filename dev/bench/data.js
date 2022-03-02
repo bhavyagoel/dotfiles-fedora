@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1646099881651,
+  "lastUpdate": 1646188214587,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -5199,6 +5199,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.106,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cacad5d2edbf9ec49c8d43f04c5c5beffea8b077",
+          "message": "Merge pull request #2655 from yutkat/v42.015\n\nneovim: Add modes.nvim",
+          "timestamp": "2022-03-02T11:25:24+09:00",
+          "tree_id": "a335f786656c272f3b251be362aa33d0c4f613fa",
+          "url": "https://github.com/yutkat/dotfiles/commit/cacad5d2edbf9ec49c8d43f04c5c5beffea8b077"
+        },
+        "date": 1646188214331,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.19,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0,
             "unit": "Second"
           }
         ]
