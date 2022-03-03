@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1646241583877,
+  "lastUpdate": 1646279940427,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -5369,6 +5369,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.12,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dc94a0d47efbdfa87da4cca6a2266b9ed005a01a",
+          "message": "Merge pull request #2660 from yutkat/v42.020\n\nwezterm: Add the function to rename the title",
+          "timestamp": "2022-03-03T12:53:46+09:00",
+          "tree_id": "746c974284451abf8fe5bc9b6676e50186e1b4ee",
+          "url": "https://github.com/yutkat/dotfiles/commit/dc94a0d47efbdfa87da4cca6a2266b9ed005a01a"
+        },
+        "date": 1646279939806,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.25,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.124,
             "unit": "Second"
           }
         ]
