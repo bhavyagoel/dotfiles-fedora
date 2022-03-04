@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1646290006649,
+  "lastUpdate": 1646359304033,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -5471,6 +5471,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.091,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e3f9369c6b1c2c2b51f1f1aa7f769a4c692b311c",
+          "message": "Merge pull request #2663 from yutkat/v42.023\n\nwezterm: Change background whether ssh or not",
+          "timestamp": "2022-03-04T10:57:49+09:00",
+          "tree_id": "1f29b3046cba07da63837216dc22a487f9da0599",
+          "url": "https://github.com/yutkat/dotfiles/commit/e3f9369c6b1c2c2b51f1f1aa7f769a4c692b311c"
+        },
+        "date": 1646359303779,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.152,
             "unit": "Second"
           }
         ]
