@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1646477491704,
+  "lastUpdate": 1646611236786,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -5539,6 +5539,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.095,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "145105bf7a9855f01c52f2def09a7749ce6f84bc",
+          "message": "Merge pull request #2666 from yutkat/v42.026\n\nneovim: Add nvim-regexplainer",
+          "timestamp": "2022-03-07T08:57:00+09:00",
+          "tree_id": "27c8c16257d725de49150f1fc8fe402ee47d51e8",
+          "url": "https://github.com/yutkat/dotfiles/commit/145105bf7a9855f01c52f2def09a7749ce6f84bc"
+        },
+        "date": 1646611236181,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.28,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.111,
             "unit": "Second"
           }
         ]
