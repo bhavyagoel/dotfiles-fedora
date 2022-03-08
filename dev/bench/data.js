@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1646730192228,
+  "lastUpdate": 1646736664407,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -5743,6 +5743,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.108,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "321840edc2614673068332d1960cc9019ce3ee4c",
+          "message": "Merge pull request #2671 from yutkat/v42.031\n\nneovim: Reenable nvim-scrollbar",
+          "timestamp": "2022-03-08T19:45:53+09:00",
+          "tree_id": "b36fc3dae1468c369c6297bb5f9107715bbda5da",
+          "url": "https://github.com/yutkat/dotfiles/commit/321840edc2614673068332d1960cc9019ce3ee4c"
+        },
+        "date": 1646736664079,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.65,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.193,
             "unit": "Second"
           }
         ]
