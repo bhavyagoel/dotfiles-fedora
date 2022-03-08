@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1646612346925,
+  "lastUpdate": 1646730192228,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -5709,6 +5709,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.109,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0d35f2711d5531b60f131b89a72845df5055b200",
+          "message": "Merge pull request #2670 from yutkat/v42.030\n\nneovim: Add better-digraphs",
+          "timestamp": "2022-03-08T17:58:31+09:00",
+          "tree_id": "e5a4723bce3dc9c125ecd66a8c5fb21cd3e87476",
+          "url": "https://github.com/yutkat/dotfiles/commit/0d35f2711d5531b60f131b89a72845df5055b200"
+        },
+        "date": 1646730191536,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.2,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.108,
             "unit": "Second"
           }
         ]
