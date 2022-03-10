@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1646736664407,
+  "lastUpdate": 1646876005726,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -5777,6 +5777,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.193,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "44a52ca8f33f2dad1715ce485d1a75d278427e31",
+          "message": "Merge pull request #2672 from yutkat/v42.032\n\nneovim: Fix the redundant statement",
+          "timestamp": "2022-03-10T10:29:00+09:00",
+          "tree_id": "f340de71e0189b754b43e3b0e8a87fe079fe0518",
+          "url": "https://github.com/yutkat/dotfiles/commit/44a52ca8f33f2dad1715ce485d1a75d278427e31"
+        },
+        "date": 1646876005457,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.24,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.117,
             "unit": "Second"
           }
         ]
