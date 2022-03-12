@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1646876005726,
+  "lastUpdate": 1647078972793,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -5811,6 +5811,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.117,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8cb0bbd69dd67185903943316f53bf89b676a7cb",
+          "message": "Merge pull request #2673 from yutkat/v42.033\n\nneovim: Update the startup menu",
+          "timestamp": "2022-03-12T18:53:13+09:00",
+          "tree_id": "8fd2df6aeb675c4f10830781869a408622d029db",
+          "url": "https://github.com/yutkat/dotfiles/commit/8cb0bbd69dd67185903943316f53bf89b676a7cb"
+        },
+        "date": 1647078972239,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.22,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0,
             "unit": "Second"
           }
         ]
