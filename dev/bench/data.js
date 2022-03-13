@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1647151364912,
+  "lastUpdate": 1647187896869,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -5942,6 +5942,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh load time",
             "value": 0.24,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d16eec9a5d00bb7a8af7cb35230bf9583ff48e9e",
+          "message": "Merge pull request #2677 from yutkat/v42.037\n\nzsh: Add mocword",
+          "timestamp": "2022-03-14T01:06:56+09:00",
+          "tree_id": "51925128631c0dcb0c3838c6f50ccb2a36c12f3c",
+          "url": "https://github.com/yutkat/dotfiles/commit/d16eec9a5d00bb7a8af7cb35230bf9583ff48e9e"
+        },
+        "date": 1647187896328,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.2,
             "unit": "Second"
           },
           {
