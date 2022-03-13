@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1647146823921,
+  "lastUpdate": 1647151364912,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -5908,6 +5908,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh load time",
             "value": 0.21,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9b583a38506fb569a66d48d9966151bc4f3b3f19",
+          "message": "Merge pull request #2676 from yutkat/v42.036\n\nneovim: Add grammarly config but it doesn't work well",
+          "timestamp": "2022-03-13T14:58:59+09:00",
+          "tree_id": "61beef41296f63f2a085a6309b83c690f1012cb5",
+          "url": "https://github.com/yutkat/dotfiles/commit/9b583a38506fb569a66d48d9966151bc4f3b3f19"
+        },
+        "date": 1647151364299,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.24,
             "unit": "Second"
           },
           {
