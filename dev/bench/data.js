@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1647187896869,
+  "lastUpdate": 1647224245728,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -5976,6 +5976,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh load time",
             "value": 0.2,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cb44d6008f2c5784685dd093050522a8d38ee2b2",
+          "message": "Merge pull request #2678 from yutkat/v42.038\n\nneovim: Add footer on alpha",
+          "timestamp": "2022-03-14T11:12:49+09:00",
+          "tree_id": "81d28c612f66f64ed5d978ab0e054d58352a8d7b",
+          "url": "https://github.com/yutkat/dotfiles/commit/cb44d6008f2c5784685dd093050522a8d38ee2b2"
+        },
+        "date": 1647224245399,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.25,
             "unit": "Second"
           },
           {
