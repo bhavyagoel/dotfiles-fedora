@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1647224245728,
+  "lastUpdate": 1647320338412,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -6010,6 +6010,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh load time",
             "value": 0.25,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4468e9f24e1b859eab617915ebba4717f566d7b0",
+          "message": "Merge pull request #2679 from yutkat/v42.039\n\nneovim: Fix gitconfig type",
+          "timestamp": "2022-03-15T13:54:47+09:00",
+          "tree_id": "788014f4c98a367893b817beca85c42197bfbae3",
+          "url": "https://github.com/yutkat/dotfiles/commit/4468e9f24e1b859eab617915ebba4717f566d7b0"
+        },
+        "date": 1647320338098,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.22,
             "unit": "Second"
           },
           {
