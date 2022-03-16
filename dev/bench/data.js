@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1647325689640,
+  "lastUpdate": 1647400493538,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -6078,6 +6078,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh load time",
             "value": 0.25,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "77d81281300911010254c247d97c4b4033fc2398",
+          "message": "Merge pull request #2681 from yutkat/v42.041\n\nneovim: Update mocword config",
+          "timestamp": "2022-03-16T12:09:59+09:00",
+          "tree_id": "1b2ddbfa6a658c2ce813e43c18c0af4c796a73f8",
+          "url": "https://github.com/yutkat/dotfiles/commit/77d81281300911010254c247d97c4b4033fc2398"
+        },
+        "date": 1647400493233,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.27,
             "unit": "Second"
           },
           {
