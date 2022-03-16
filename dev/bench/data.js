@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1647400493538,
+  "lastUpdate": 1647407643518,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -6117,6 +6117,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5f3aef7c2dcbc023ee898fcc93e95effd2a8a3fe",
+          "message": "Merge pull request #2682 from yutkat/v42.042\n\nneovim: Fix the performance issue",
+          "timestamp": "2022-03-16T14:09:15+09:00",
+          "tree_id": "073b8f42aeb35a06c92ffd204284000c393c5283",
+          "url": "https://github.com/yutkat/dotfiles/commit/5f3aef7c2dcbc023ee898fcc93e95effd2a8a3fe"
+        },
+        "date": 1647407642866,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.21,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.106,
             "unit": "Second"
           }
         ]
