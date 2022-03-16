@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1647407643518,
+  "lastUpdate": 1647408967765,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -6151,6 +6151,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.106,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2a0557c1320983dc4ec513c73eb54337a44ce8e2",
+          "message": "Merge pull request #2683 from yutkat/v42.043\n\nneovim: Use nighfox's cache",
+          "timestamp": "2022-03-16T14:30:18+09:00",
+          "tree_id": "0714aca769fb6d7a5aae7c676dff890bc879c192",
+          "url": "https://github.com/yutkat/dotfiles/commit/2a0557c1320983dc4ec513c73eb54337a44ce8e2"
+        },
+        "date": 1647408967000,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.095,
             "unit": "Second"
           }
         ]
