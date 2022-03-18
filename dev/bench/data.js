@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1647607790417,
+  "lastUpdate": 1647609969771,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -6355,6 +6355,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.129,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e26c4d21903a2befb8e13a47c9d325c04df1be8a",
+          "message": "Merge pull request #2689 from yutkat/v42.049\n\nneovim: Update the boarder line",
+          "timestamp": "2022-03-18T22:21:37+09:00",
+          "tree_id": "94923a794f8b0fee40a038697e4712f269858677",
+          "url": "https://github.com/yutkat/dotfiles/commit/e26c4d21903a2befb8e13a47c9d325c04df1be8a"
+        },
+        "date": 1647609969218,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.22,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.108,
             "unit": "Second"
           }
         ]
