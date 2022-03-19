@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1647609969771,
+  "lastUpdate": 1647678636695,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -6389,6 +6389,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.108,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e7508fbb154428f761e2e88ea18849e4f2cf023a",
+          "message": "Merge pull request #2690 from yutkat/v42.050\n\nneovim: Fix rustfmt",
+          "timestamp": "2022-03-19T17:26:44+09:00",
+          "tree_id": "83b628155b5b1e9a7c6386408fa1f7b1736ab96a",
+          "url": "https://github.com/yutkat/dotfiles/commit/e7508fbb154428f761e2e88ea18849e4f2cf023a"
+        },
+        "date": 1647678636454,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.2,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.11,
             "unit": "Second"
           }
         ]
