@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1647750587938,
+  "lastUpdate": 1647754358103,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -6491,6 +6491,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.139,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c2d1de86631931594985ac87ca09cab13e403988",
+          "message": "Merge pull request #2693 from yutkat/v42.053\n\nneovim: Update nvim-cmp's sort",
+          "timestamp": "2022-03-20T14:28:29+09:00",
+          "tree_id": "16dddbc15238261efcc0f64eb0cdf071e2cef2c6",
+          "url": "https://github.com/yutkat/dotfiles/commit/c2d1de86631931594985ac87ca09cab13e403988"
+        },
+        "date": 1647754357843,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.24,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.116,
             "unit": "Second"
           }
         ]
