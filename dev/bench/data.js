@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1647754358103,
+  "lastUpdate": 1647754525080,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -6525,6 +6525,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.116,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9e7d6a344ec053f536a3df113b5903c379a1e3e3",
+          "message": "Merge pull request #2694 from yutkat/v42.054\n\nzsh: Add alias for git",
+          "timestamp": "2022-03-20T14:31:04+09:00",
+          "tree_id": "439828c1f2fe3c1da1b4a2d046384bf23baf650f",
+          "url": "https://github.com/yutkat/dotfiles/commit/9e7d6a344ec053f536a3df113b5903c379a1e3e3"
+        },
+        "date": 1647754524720,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.23,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.112,
             "unit": "Second"
           }
         ]
