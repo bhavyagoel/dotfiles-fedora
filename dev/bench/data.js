@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1647841128321,
+  "lastUpdate": 1647863676493,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -6593,6 +6593,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.106,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6f5f13fd2c76f073277f19e7389652d8e02a13cd",
+          "message": "Merge pull request #2696 from yutkat/v42.056\n\nneovim: Update telescope",
+          "timestamp": "2022-03-21T20:48:58+09:00",
+          "tree_id": "e995b597265e826f2c0bc8a9156f43a89a4fff84",
+          "url": "https://github.com/yutkat/dotfiles/commit/6f5f13fd2c76f073277f19e7389652d8e02a13cd"
+        },
+        "date": 1647863675715,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.43,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.145,
             "unit": "Second"
           }
         ]
