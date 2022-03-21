@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1647754525080,
+  "lastUpdate": 1647841128321,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -6559,6 +6559,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.112,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "15be3a299604f7be8541837c59fcbd7cb16ef4f5",
+          "message": "Merge pull request #2695 from yutkat/v42.055\n\ni3: Fix the cpu icon",
+          "timestamp": "2022-03-21T14:34:31+09:00",
+          "tree_id": "2aac238616ee9b77e9015a9e7bfdd8df06e09df8",
+          "url": "https://github.com/yutkat/dotfiles/commit/15be3a299604f7be8541837c59fcbd7cb16ef4f5"
+        },
+        "date": 1647841128018,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.2,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.106,
             "unit": "Second"
           }
         ]
