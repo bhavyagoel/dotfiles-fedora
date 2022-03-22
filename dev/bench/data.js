@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1647863676493,
+  "lastUpdate": 1647935877136,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -6627,6 +6627,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.145,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2371f23994238c6a0ff65112bd133249ee808686",
+          "message": "Merge pull request #2697 from yutkat/v42.057\n\nneovim: Update illuminate",
+          "timestamp": "2022-03-22T16:52:44+09:00",
+          "tree_id": "df7374a6fd4acf6a0618986120137c0bdd07b36a",
+          "url": "https://github.com/yutkat/dotfiles/commit/2371f23994238c6a0ff65112bd133249ee808686"
+        },
+        "date": 1647935876552,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.29,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.129,
             "unit": "Second"
           }
         ]
