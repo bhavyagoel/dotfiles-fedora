@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1647935877136,
+  "lastUpdate": 1648015559346,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -6661,6 +6661,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.129,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6fe787d1aa89a8a87f32804a9ec66057f06ca8dd",
+          "message": "Merge pull request #2698 from yutkat/v42.058\n\nneovim: Add cmp sources",
+          "timestamp": "2022-03-23T15:00:55+09:00",
+          "tree_id": "5d5ea9780488564648a77d82d9062d2207e7c080",
+          "url": "https://github.com/yutkat/dotfiles/commit/6fe787d1aa89a8a87f32804a9ec66057f06ca8dd"
+        },
+        "date": 1648015559040,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.65,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.148,
             "unit": "Second"
           }
         ]
