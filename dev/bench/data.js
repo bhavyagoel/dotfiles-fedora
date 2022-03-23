@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1648015559346,
+  "lastUpdate": 1648038188355,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -6695,6 +6695,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.148,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "88fe5c96d5ca774f7fa831bb89dde1f47b0595b8",
+          "message": "Merge pull request #2699 from yutkat/v42.059\n\nneovim: Add stickybuf",
+          "timestamp": "2022-03-23T21:19:00+09:00",
+          "tree_id": "4ee85b4c60f3cfdc79077bdb84a9759f29761b53",
+          "url": "https://github.com/yutkat/dotfiles/commit/88fe5c96d5ca774f7fa831bb89dde1f47b0595b8"
+        },
+        "date": 1648038188030,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.2,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.099,
             "unit": "Second"
           }
         ]
