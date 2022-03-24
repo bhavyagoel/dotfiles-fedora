@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1648038188355,
+  "lastUpdate": 1648101847360,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -6729,6 +6729,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.099,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e8e00bc06843bad5c3fd286b93a7e47a7d62fe87",
+          "message": "Merge pull request #2703 from yutkat/v42.063\n\nneovim: Remove pynvim",
+          "timestamp": "2022-03-24T14:58:44+09:00",
+          "tree_id": "9de3698ed8e7d32c0c9fa66baf0963785410a9e6",
+          "url": "https://github.com/yutkat/dotfiles/commit/e8e00bc06843bad5c3fd286b93a7e47a7d62fe87"
+        },
+        "date": 1648101846765,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.25,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.14,
             "unit": "Second"
           }
         ]
