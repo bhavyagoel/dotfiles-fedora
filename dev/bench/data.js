@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1648175438503,
+  "lastUpdate": 1648180404452,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -6831,6 +6831,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.114,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5179371a5304aa95dc30cdb1d63eb5f1cf52b71e",
+          "message": "Merge pull request #2706 from yutkat/v42.066\n\nneovim: Add hlargs",
+          "timestamp": "2022-03-25T12:49:14+09:00",
+          "tree_id": "4d3db46826c54c5cc333b2329f5f9fd20911f659",
+          "url": "https://github.com/yutkat/dotfiles/commit/5179371a5304aa95dc30cdb1d63eb5f1cf52b71e"
+        },
+        "date": 1648180404177,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.48,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.115,
             "unit": "Second"
           }
         ]
