@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1648101847360,
+  "lastUpdate": 1648172919784,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -6763,6 +6763,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.14,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2a6eed37fabe4a8a78928094dca4b2c91637cbb9",
+          "message": "Merge pull request #2704 from yutkat/v42.064\n\ngtk: Apply Adwaita:dark",
+          "timestamp": "2022-03-25T10:43:59+09:00",
+          "tree_id": "3131c9f6e14f42051d01fe1eb68f78b5f4dcd734",
+          "url": "https://github.com/yutkat/dotfiles/commit/2a6eed37fabe4a8a78928094dca4b2c91637cbb9"
+        },
+        "date": 1648172919208,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.21,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.105,
             "unit": "Second"
           }
         ]
