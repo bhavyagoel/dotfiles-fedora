@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1648194261756,
+  "lastUpdate": 1648391761971,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -6899,6 +6899,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.116,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e49c95dc645d24097ad2a3cf085dbfac19ab27a7",
+          "message": "Merge pull request #2708 from yutkat/v42.068\n\nzsh: Add the function to check the plugin update time",
+          "timestamp": "2022-03-27T23:31:51+09:00",
+          "tree_id": "ba4ed818294c5b0ca7dbc382e257fb024e529b30",
+          "url": "https://github.com/yutkat/dotfiles/commit/e49c95dc645d24097ad2a3cf085dbfac19ab27a7"
+        },
+        "date": 1648391761653,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.2,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.113,
             "unit": "Second"
           }
         ]
