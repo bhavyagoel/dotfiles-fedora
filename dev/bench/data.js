@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1648391761971,
+  "lastUpdate": 1648393627187,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -6933,6 +6933,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.113,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6ea1ba9a0270f933f4b35a35453f2f6da281f6f6",
+          "message": "Merge pull request #2709 from yutkat/v42.069\n\nneovim: Disable unused plguins",
+          "timestamp": "2022-03-28T00:02:18+09:00",
+          "tree_id": "16a7c993633a6510ecc5025b9b18004809234af5",
+          "url": "https://github.com/yutkat/dotfiles/commit/6ea1ba9a0270f933f4b35a35453f2f6da281f6f6"
+        },
+        "date": 1648393626863,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.27,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.135,
             "unit": "Second"
           }
         ]
