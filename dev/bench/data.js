@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1648393627187,
+  "lastUpdate": 1648516027108,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -6967,6 +6967,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.135,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "32c7bfe2aa3efe3c89c7ba57bf7e0fe27925d62c",
+          "message": "Merge pull request #2710 from yutkat/v42.070\n\nwezterm: Add the font of udev gothic",
+          "timestamp": "2022-03-29T10:02:23+09:00",
+          "tree_id": "bf03fd14d189de19117d71666339d01dee4fa44a",
+          "url": "https://github.com/yutkat/dotfiles/commit/32c7bfe2aa3efe3c89c7ba57bf7e0fe27925d62c"
+        },
+        "date": 1648516026469,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.24,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.133,
             "unit": "Second"
           }
         ]
