@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1648535760274,
+  "lastUpdate": 1648546254502,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -7035,6 +7035,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.169,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4ecae122ef257c566d4766caa9d6387c0c03c67a",
+          "message": "Merge pull request #2712 from yutkat/v42.072\n\nfont: Change font from Cica to udev-gothic",
+          "timestamp": "2022-03-29T18:26:11+09:00",
+          "tree_id": "da4b5ebc420eb742b8cb751da471f11d6338fd1e",
+          "url": "https://github.com/yutkat/dotfiles/commit/4ecae122ef257c566d4766caa9d6387c0c03c67a"
+        },
+        "date": 1648546254196,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.38,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.137,
             "unit": "Second"
           }
         ]
