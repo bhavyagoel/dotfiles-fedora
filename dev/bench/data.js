@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1648615917994,
+  "lastUpdate": 1648621328339,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -7103,6 +7103,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.106,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cdca51915aa85b4b8017f75685fbd3e15202c2f3",
+          "message": "Merge pull request #2714 from yutkat/v42.074\n\nsway: Fix an unvisible cursor",
+          "timestamp": "2022-03-30T15:17:18+09:00",
+          "tree_id": "86baea0a759d6b66445c784e6227929bfd9c3cf7",
+          "url": "https://github.com/yutkat/dotfiles/commit/cdca51915aa85b4b8017f75685fbd3e15202c2f3"
+        },
+        "date": 1648621327764,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.21,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.116,
             "unit": "Second"
           }
         ]
