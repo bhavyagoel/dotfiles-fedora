@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1648546254502,
+  "lastUpdate": 1648615917994,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -7069,6 +7069,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.137,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "06d3b7586df468f953f1995b329db6db302b20fc",
+          "message": "Merge pull request #2713 from yutkat/v42.073\n\nwezterm: Fix vertical split",
+          "timestamp": "2022-03-30T13:47:46+09:00",
+          "tree_id": "73f0797221430801b5d877cfdf52276e732826fb",
+          "url": "https://github.com/yutkat/dotfiles/commit/06d3b7586df468f953f1995b329db6db302b20fc"
+        },
+        "date": 1648615917689,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.2,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.106,
             "unit": "Second"
           }
         ]
