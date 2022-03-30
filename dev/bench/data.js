@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1648621328339,
+  "lastUpdate": 1648635011437,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -7137,6 +7137,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.116,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0a58bab79cdfe1be0895d5d2af5288abc714217b",
+          "message": "Merge pull request #2715 from yutkat/v42.075\n\nwezterm: Disable ime status",
+          "timestamp": "2022-03-30T19:05:50+09:00",
+          "tree_id": "8d1b41c32af70d35ed92e1d53a31e5a802d19644",
+          "url": "https://github.com/yutkat/dotfiles/commit/0a58bab79cdfe1be0895d5d2af5288abc714217b"
+        },
+        "date": 1648635011117,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.2,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.129,
             "unit": "Second"
           }
         ]
