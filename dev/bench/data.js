@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1648722288614,
+  "lastUpdate": 1648732467159,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -7205,6 +7205,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.129,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "70436affb900a81bf2cd25229183fa817da31f9f",
+          "message": "Merge pull request #2717 from yutkat/v42.077\n\nvivaldi: Enable gpu for webgl",
+          "timestamp": "2022-03-31T22:09:03+09:00",
+          "tree_id": "78f2034272ddbaeb89dd651e98626dfc9a707fe2",
+          "url": "https://github.com/yutkat/dotfiles/commit/70436affb900a81bf2cd25229183fa817da31f9f"
+        },
+        "date": 1648732466554,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.25,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.138,
             "unit": "Second"
           }
         ]
