@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1648635011437,
+  "lastUpdate": 1648722288614,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -7166,6 +7166,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh load time",
             "value": 0.2,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.129,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7f4eda2620102d926e81693de7fea99b5f376328",
+          "message": "Merge pull request #2716 from yutkat/v42.076\n\nespnaso: Fix the config path",
+          "timestamp": "2022-03-31T19:20:03+09:00",
+          "tree_id": "c0841c3ade6a48f95b1784a1de58d6826b940b6a",
+          "url": "https://github.com/yutkat/dotfiles/commit/7f4eda2620102d926e81693de7fea99b5f376328"
+        },
+        "date": 1648722288325,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.26,
             "unit": "Second"
           },
           {
