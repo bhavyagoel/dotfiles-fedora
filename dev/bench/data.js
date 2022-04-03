@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1648969915958,
+  "lastUpdate": 1649000583944,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -7273,6 +7273,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.131,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1a6988f1723e5af35c9916a2e61f1b2910ff11c0",
+          "message": "Merge pull request #2719 from yutkat/v42.079\n\nneovim: Fix to load the local file",
+          "timestamp": "2022-04-04T00:38:59+09:00",
+          "tree_id": "ddee987fd7e5f38ef19b8fee3cdfc975335735ab",
+          "url": "https://github.com/yutkat/dotfiles/commit/1a6988f1723e5af35c9916a2e61f1b2910ff11c0"
+        },
+        "date": 1649000583680,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.11,
             "unit": "Second"
           }
         ]
