@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1648732467159,
+  "lastUpdate": 1648969915958,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -7239,6 +7239,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.138,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f16c97f87c17e62b342cd80736ae18adf5e8dad0",
+          "message": "Merge pull request #2718 from yutkat/v42.078\n\nzsh: Remove tmux",
+          "timestamp": "2022-04-03T16:07:27+09:00",
+          "tree_id": "7950844397526496b99045a0d92a7515bd713c95",
+          "url": "https://github.com/yutkat/dotfiles/commit/f16c97f87c17e62b342cd80736ae18adf5e8dad0"
+        },
+        "date": 1648969915606,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.22,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.131,
             "unit": "Second"
           }
         ]
