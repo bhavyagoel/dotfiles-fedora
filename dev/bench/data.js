@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1649034974235,
+  "lastUpdate": 1649041383645,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -7341,6 +7341,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.168,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a41d9b04d2cfe41574aad10fbc49c03122360587",
+          "message": "Merge pull request #2721 from yutkat/v42.081\n\nwezterm: Update font config",
+          "timestamp": "2022-04-04T11:57:45+09:00",
+          "tree_id": "3cc0c00ca7b104d79725238bb5d9dc78942abd3e",
+          "url": "https://github.com/yutkat/dotfiles/commit/a41d9b04d2cfe41574aad10fbc49c03122360587"
+        },
+        "date": 1649041382867,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.22,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.128,
             "unit": "Second"
           }
         ]
