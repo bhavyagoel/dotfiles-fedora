@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1649154460052,
+  "lastUpdate": 1649163981279,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -7511,6 +7511,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.194,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "40feda04e82a00d7bb1226588a15955587a9effa",
+          "message": "Merge pull request #2726 from yutkat/v42.086\n\nzsh: Add zinit path",
+          "timestamp": "2022-04-05T22:01:41+09:00",
+          "tree_id": "b4e1580c45edc3ac321de8eef58f0e866e0e93f9",
+          "url": "https://github.com/yutkat/dotfiles/commit/40feda04e82a00d7bb1226588a15955587a9effa"
+        },
+        "date": 1649163980966,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.23,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.143,
             "unit": "Second"
           }
         ]
