@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1649041383645,
+  "lastUpdate": 1649123409521,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -7375,6 +7375,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.128,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fa3142069cdf1a36f093c2ed2a707f563027020c",
+          "message": "Merge pull request #2722 from yutkat/v42.082\n\nwezterm: Update italic font config",
+          "timestamp": "2022-04-05T10:46:02+09:00",
+          "tree_id": "6b0c77fa5a33b56ceddcd473435ad16e9257a2dc",
+          "url": "https://github.com/yutkat/dotfiles/commit/fa3142069cdf1a36f093c2ed2a707f563027020c"
+        },
+        "date": 1649123409211,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.19,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.107,
             "unit": "Second"
           }
         ]
