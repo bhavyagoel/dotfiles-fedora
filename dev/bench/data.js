@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1649127689740,
+  "lastUpdate": 1649154460052,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -7477,6 +7477,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.08,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0dcfb8da5d1fd4c670880ac0ab085049f6d6bbd0",
+          "message": "Merge pull request #2725 from yutkat/v42.085\n\nnoevim: Fix onefetch",
+          "timestamp": "2022-04-05T19:22:10+09:00",
+          "tree_id": "feceb5b0c797c85ad7b6985b7725b79414a06709",
+          "url": "https://github.com/yutkat/dotfiles/commit/0dcfb8da5d1fd4c670880ac0ab085049f6d6bbd0"
+        },
+        "date": 1649154459413,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.32,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.194,
             "unit": "Second"
           }
         ]
