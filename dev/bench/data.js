@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1649213851687,
+  "lastUpdate": 1649221328542,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -7613,6 +7613,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.252,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d721b1243d43bd2ba0f1407a36c31a05799b1b51",
+          "message": "Merge pull request #2729 from yutkat/v42.089\n\nneovim: Update performance on insert mode",
+          "timestamp": "2022-04-06T13:56:51+09:00",
+          "tree_id": "13d5766798f941fe63d19a776e620ea2a994e593",
+          "url": "https://github.com/yutkat/dotfiles/commit/d721b1243d43bd2ba0f1407a36c31a05799b1b51"
+        },
+        "date": 1649221327937,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.6,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.257,
             "unit": "Second"
           }
         ]
