@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1649221328542,
+  "lastUpdate": 1649222675119,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -7647,6 +7647,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.257,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f6cb68c2c206946e1269f6b6c0879ae6afe0b948",
+          "message": "Merge pull request #2730 from yutkat/v42.090\n\nneovim: Update autocmd for matchup",
+          "timestamp": "2022-04-06T14:19:45+09:00",
+          "tree_id": "32f4aba73afaf564498ce4050011dd5d15faa2d6",
+          "url": "https://github.com/yutkat/dotfiles/commit/f6cb68c2c206946e1269f6b6c0879ae6afe0b948"
+        },
+        "date": 1649222674494,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.21,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.233,
             "unit": "Second"
           }
         ]
