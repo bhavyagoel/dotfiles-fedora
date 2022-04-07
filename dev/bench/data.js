@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1649295134245,
+  "lastUpdate": 1649336249757,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -7851,6 +7851,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.091,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a83443018decae3b6be994fe567682d340e1cf14",
+          "message": "Merge pull request #2736 from yutkat/v42.096\n\nneovim: Disable the mysterious black.vim",
+          "timestamp": "2022-04-07T21:52:43+09:00",
+          "tree_id": "0272e837000cad0dfbf039f5aec69eb142bb63ea",
+          "url": "https://github.com/yutkat/dotfiles/commit/a83443018decae3b6be994fe567682d340e1cf14"
+        },
+        "date": 1649336249400,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.37,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.135,
             "unit": "Second"
           }
         ]
