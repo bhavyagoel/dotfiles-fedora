@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1649253549807,
+  "lastUpdate": 1649290254401,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -7749,6 +7749,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.214,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "afa7eb1ca783074f8ce9dae97163e215650f183b",
+          "message": "Merge pull request #2733 from yutkat/v42.093\n\nneovim: Add yanky.nvim",
+          "timestamp": "2022-04-07T09:06:14+09:00",
+          "tree_id": "b1897f26f4763afda9138ec0892b46505c4f2111",
+          "url": "https://github.com/yutkat/dotfiles/commit/afa7eb1ca783074f8ce9dae97163e215650f183b"
+        },
+        "date": 1649290254040,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.23,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.239,
             "unit": "Second"
           }
         ]
