@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1649412981713,
+  "lastUpdate": 1649486550438,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -8021,6 +8021,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.1,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5903ae19a27e070ad43a49e0e98e49eb6d567c0f",
+          "message": "Merge pull request #2741 from yutkat/v42.101\n\nneovim: Ignore the messages for telescope-frecency",
+          "timestamp": "2022-04-09T15:37:31+09:00",
+          "tree_id": "39cc2859aa65df1058132b49d28252949879146e",
+          "url": "https://github.com/yutkat/dotfiles/commit/5903ae19a27e070ad43a49e0e98e49eb6d567c0f"
+        },
+        "date": 1649486550136,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.39,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.189,
             "unit": "Second"
           }
         ]
