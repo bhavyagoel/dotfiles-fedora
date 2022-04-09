@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1649486550438,
+  "lastUpdate": 1649490385934,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -8055,6 +8055,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.189,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9d543e6a457d8c868f01b02479157f6ccfcc0f67",
+          "message": "Merge pull request #2742 from yutkat/v42.102\n\ndoc: Add star history",
+          "timestamp": "2022-04-09T16:42:30+09:00",
+          "tree_id": "42092d3b5b9ae54c72043754b17abce21f86ddb9",
+          "url": "https://github.com/yutkat/dotfiles/commit/9d543e6a457d8c868f01b02479157f6ccfcc0f67"
+        },
+        "date": 1649490385670,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.19,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.092,
             "unit": "Second"
           }
         ]
