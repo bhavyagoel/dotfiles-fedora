@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1649530625959,
+  "lastUpdate": 1649579735192,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -8123,6 +8123,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.13,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1f2b8e37c5ab6b49bd87c7bf4aba309f668fa213",
+          "message": "Merge pull request #2744 from yutkat/v42.104\n\nneovim: Temporally fix the error occurs",
+          "timestamp": "2022-04-10T17:32:39+09:00",
+          "tree_id": "4f367baa35f302f5f4648bb3c02f87a10b23fdb4",
+          "url": "https://github.com/yutkat/dotfiles/commit/1f2b8e37c5ab6b49bd87c7bf4aba309f668fa213"
+        },
+        "date": 1649579734940,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.2,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.096,
             "unit": "Second"
           }
         ]
