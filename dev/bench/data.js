@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1649651533912,
+  "lastUpdate": 1649667394160,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -8259,6 +8259,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.089,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d4628d1292279c2f203f94d4b7cf59f161e2ea79",
+          "message": "Merge pull request #2748 from yutkat/v42.108\n\nneovim: Change nvim_add_user_command to nvim_create_user_command",
+          "timestamp": "2022-04-11T17:53:52+09:00",
+          "tree_id": "8ee44c195411c00aae462d4035ab09cdecc97f64",
+          "url": "https://github.com/yutkat/dotfiles/commit/d4628d1292279c2f203f94d4b7cf59f161e2ea79"
+        },
+        "date": 1649667393857,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.17,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.095,
             "unit": "Second"
           }
         ]
