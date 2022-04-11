@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1649579735192,
+  "lastUpdate": 1649650287911,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -8157,6 +8157,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.096,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "25e9d9936b13aa2a6e5a88d898336ae684c63db6",
+          "message": "Merge pull request #2745 from yutkat/v42.105\n\ni3: Fix GPU",
+          "timestamp": "2022-04-11T13:07:39+09:00",
+          "tree_id": "57039332574e1ef1c7512832103fe1e6293a116d",
+          "url": "https://github.com/yutkat/dotfiles/commit/25e9d9936b13aa2a6e5a88d898336ae684c63db6"
+        },
+        "date": 1649650287022,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.088,
             "unit": "Second"
           }
         ]
