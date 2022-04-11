@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1649677404020,
+  "lastUpdate": 1649685113289,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -8327,6 +8327,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.168,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a0ab08a4ddc9d008ade343f37a96447950244f42",
+          "message": "Merge pull request #2750 from yutkat/v42.110\n\nneovim: Change the splitjoin plugin",
+          "timestamp": "2022-04-11T22:48:43+09:00",
+          "tree_id": "bf0742bf6046350fad0d4598f14f63c68b700f02",
+          "url": "https://github.com/yutkat/dotfiles/commit/a0ab08a4ddc9d008ade343f37a96447950244f42"
+        },
+        "date": 1649685113010,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.2,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.104,
             "unit": "Second"
           }
         ]
