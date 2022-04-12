@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1649738645177,
+  "lastUpdate": 1649777759057,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -8429,6 +8429,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.101,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "621814febfd2f0534d4bdb4d3f10563a4aeae98f",
+          "message": "Merge pull request #2753 from yutkat/v42.113\n\nneovim: Update the map to change the prefix style",
+          "timestamp": "2022-04-13T00:32:45+09:00",
+          "tree_id": "3d8fb7a68c60fa6fc9834a6832ce7a8fe2374bd5",
+          "url": "https://github.com/yutkat/dotfiles/commit/621814febfd2f0534d4bdb4d3f10563a4aeae98f"
+        },
+        "date": 1649777758743,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.22,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.114,
             "unit": "Second"
           }
         ]
