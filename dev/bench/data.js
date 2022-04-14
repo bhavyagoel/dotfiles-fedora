@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1649784249008,
+  "lastUpdate": 1649943095946,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -8531,6 +8531,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.101,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8d0b3f93e4f45ff1fa73dc8c8524f80fb2794374",
+          "message": "Merge pull request #2761 from yutkat/v42.121\n\nCI: Fix fatal: unsafe repository for benchmark",
+          "timestamp": "2022-04-14T22:28:26+09:00",
+          "tree_id": "a456549466992a49bccf1e64031eac1dc46a3f70",
+          "url": "https://github.com/yutkat/dotfiles/commit/8d0b3f93e4f45ff1fa73dc8c8524f80fb2794374"
+        },
+        "date": 1649943095638,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.24,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.113,
             "unit": "Second"
           }
         ]
