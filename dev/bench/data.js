@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1649943095946,
+  "lastUpdate": 1649988572679,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -8565,6 +8565,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.113,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6bbbbd8b241ea2ecc7ac76f09c244f916b80187a",
+          "message": "Merge pull request #2762 from yutkat/v42.122\n\nneovim: Add the disabled plugin",
+          "timestamp": "2022-04-15T11:06:17+09:00",
+          "tree_id": "64fd68ebe68b89ae12ea113d8ef05deb843c7759",
+          "url": "https://github.com/yutkat/dotfiles/commit/6bbbbd8b241ea2ecc7ac76f09c244f916b80187a"
+        },
+        "date": 1649988572082,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.19,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.154,
             "unit": "Second"
           }
         ]
