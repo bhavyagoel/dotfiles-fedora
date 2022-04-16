@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1650097773265,
+  "lastUpdate": 1650144138891,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -8667,6 +8667,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.089,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "53fd00c34e649365d5c87307ab71305616f166ca",
+          "message": "Merge pull request #2765 from yutkat/v42.125\n\nneovim: Clean up plugins",
+          "timestamp": "2022-04-17T06:19:38+09:00",
+          "tree_id": "194f9bf904520aa1196186cfc19163506033d136",
+          "url": "https://github.com/yutkat/dotfiles/commit/53fd00c34e649365d5c87307ab71305616f166ca"
+        },
+        "date": 1650144138630,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.091,
             "unit": "Second"
           }
         ]
