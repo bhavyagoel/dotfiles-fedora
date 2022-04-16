@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1650090745837,
+  "lastUpdate": 1650097773265,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -8633,6 +8633,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.092,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0eadef172af4110d8f00f2cb8531267db67db1ad",
+          "message": "Merge pull request #2764 from yutkat/v42.124\n\nzsh: Add docker alias",
+          "timestamp": "2022-04-16T17:26:10+09:00",
+          "tree_id": "de5bdf8bacd93c3555d150aa8a3385ff6dc75946",
+          "url": "https://github.com/yutkat/dotfiles/commit/0eadef172af4110d8f00f2cb8531267db67db1ad"
+        },
+        "date": 1650097772185,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.089,
             "unit": "Second"
           }
         ]
