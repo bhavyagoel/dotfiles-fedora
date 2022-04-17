@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1650144138891,
+  "lastUpdate": 1650176922564,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -8701,6 +8701,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.091,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "172a742b41b7a556a16fc9add349f21855518502",
+          "message": "Merge pull request #2766 from yutkat/v42.126\n\nwezterm: Update the mouse bindings",
+          "timestamp": "2022-04-17T15:25:32+09:00",
+          "tree_id": "6ccba0989e4dd8d3fe666c560ecef05c15e62ab1",
+          "url": "https://github.com/yutkat/dotfiles/commit/172a742b41b7a556a16fc9add349f21855518502"
+        },
+        "date": 1650176922282,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.23,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.112,
             "unit": "Second"
           }
         ]
