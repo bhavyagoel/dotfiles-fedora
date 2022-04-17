@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1650185999215,
+  "lastUpdate": 1650213309696,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -8769,6 +8769,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.122,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8d19d1b4393b6e4c24accbb34c4f54faad54f7f9",
+          "message": "Merge pull request #2768 from yutkat/v42.128\n\nneovim: Add hover.nvim",
+          "timestamp": "2022-04-18T01:31:52+09:00",
+          "tree_id": "fe6bcf17190e7c228b2e34b40238877363953cd1",
+          "url": "https://github.com/yutkat/dotfiles/commit/8d19d1b4393b6e4c24accbb34c4f54faad54f7f9"
+        },
+        "date": 1650213308871,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.22,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.095,
             "unit": "Second"
           }
         ]
