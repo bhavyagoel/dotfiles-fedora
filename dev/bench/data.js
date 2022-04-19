@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1650213309696,
+  "lastUpdate": 1650352572138,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -8803,6 +8803,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.095,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8df29d9265fb7a5de44b2cc4d8098ceeb579c7ce",
+          "message": "Merge pull request #2769 from yutkat/v42.129\n\ninstaller: Change font install directory to local",
+          "timestamp": "2022-04-19T16:12:40+09:00",
+          "tree_id": "589f1693554dc659f332df9a2d28a778ea4c964b",
+          "url": "https://github.com/yutkat/dotfiles/commit/8df29d9265fb7a5de44b2cc4d8098ceeb579c7ce"
+        },
+        "date": 1650352571362,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.21,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.109,
             "unit": "Second"
           }
         ]
