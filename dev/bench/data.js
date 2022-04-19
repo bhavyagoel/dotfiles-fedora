@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1650352572138,
+  "lastUpdate": 1650405258891,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -8837,6 +8837,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.109,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3444c6df310c837f03cdfbe535d657db3b94f97f",
+          "message": "Merge pull request #2770 from yutkat/v42.130\n\nwezterm: Fix tab title on ssh",
+          "timestamp": "2022-04-20T06:51:37+09:00",
+          "tree_id": "07d088e18abde6b8b4ed8d6a69a5bb9e53f1ad2b",
+          "url": "https://github.com/yutkat/dotfiles/commit/3444c6df310c837f03cdfbe535d657db3b94f97f"
+        },
+        "date": 1650405258533,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.19,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.091,
             "unit": "Second"
           }
         ]
