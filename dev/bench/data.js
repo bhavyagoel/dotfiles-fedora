@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1650638846876,
+  "lastUpdate": 1650645009353,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -8939,6 +8939,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.098,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "996812e9d177be8ee6e3348f824c90ab798374fd",
+          "message": "Merge pull request #2773 from yutkat/v42.133\n\nCI: Fix ubuntu 22.04",
+          "timestamp": "2022-04-23T01:26:55+09:00",
+          "tree_id": "3cc5506f99d9ba0bafbaf5a1a78c9ff6b69551f8",
+          "url": "https://github.com/yutkat/dotfiles/commit/996812e9d177be8ee6e3348f824c90ab798374fd"
+        },
+        "date": 1650645008721,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.19,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.097,
             "unit": "Second"
           }
         ]
