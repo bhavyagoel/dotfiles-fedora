@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1650549419467,
+  "lastUpdate": 1650638846876,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -8905,6 +8905,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.095,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b1c83fff8d9329f39b9cacde1a66e7be2139a96d",
+          "message": "Merge pull request #2772 from yutkat/v42.132\n\nzsh: Update zinit for wezterm",
+          "timestamp": "2022-04-22T23:44:23+09:00",
+          "tree_id": "56deb3cd5c208a304bb1ffa36bcf17e3178830a4",
+          "url": "https://github.com/yutkat/dotfiles/commit/b1c83fff8d9329f39b9cacde1a66e7be2139a96d"
+        },
+        "date": 1650638846562,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.21,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.098,
             "unit": "Second"
           }
         ]
