@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1650645009353,
+  "lastUpdate": 1650743322139,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -8973,6 +8973,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.097,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1da810242cc381d534036570c88f77c1a957e98e",
+          "message": "Merge pull request #2774 from yutkat/v42.134\n\nneovim: Add spellsitter",
+          "timestamp": "2022-04-24T04:45:16+09:00",
+          "tree_id": "a9ac14b014b686f237cdfa1c8c7bd1c2cfff7b1a",
+          "url": "https://github.com/yutkat/dotfiles/commit/1da810242cc381d534036570c88f77c1a957e98e"
+        },
+        "date": 1650743321417,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.22,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.104,
             "unit": "Second"
           }
         ]
