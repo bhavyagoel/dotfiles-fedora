@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1650778666257,
+  "lastUpdate": 1650779935235,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -9075,6 +9075,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.109,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fdd49b912d40930ce9264a5a6111465f9bb2cca5",
+          "message": "Merge pull request #2777 from yutkat/v42.137\n\nneovim: Fix lag on imap",
+          "timestamp": "2022-04-24T14:55:31+09:00",
+          "tree_id": "50ffa75630b971bb2e2edbf9082f29c6cba2dd44",
+          "url": "https://github.com/yutkat/dotfiles/commit/fdd49b912d40930ce9264a5a6111465f9bb2cca5"
+        },
+        "date": 1650779934626,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.22,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.104,
             "unit": "Second"
           }
         ]
