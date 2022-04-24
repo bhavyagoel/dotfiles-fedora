@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1650775640914,
+  "lastUpdate": 1650778666257,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -9041,6 +9041,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.113,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d44df5dd7be72731d27467c262d38297e967703d",
+          "message": "Merge pull request #2776 from yutkat/v42.136\n\nzsh: Add the alias",
+          "timestamp": "2022-04-24T14:34:53+09:00",
+          "tree_id": "f7123f4ad84b2722e3c3710a0b2ea8b42d3b12e9",
+          "url": "https://github.com/yutkat/dotfiles/commit/d44df5dd7be72731d27467c262d38297e967703d"
+        },
+        "date": 1650778665856,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.22,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.109,
             "unit": "Second"
           }
         ]
