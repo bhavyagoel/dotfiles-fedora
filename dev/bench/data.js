@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1650779935235,
+  "lastUpdate": 1650946647062,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -9109,6 +9109,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.104,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d7d71f1b591ead9916eb6c8457054871dffe10e3",
+          "message": "Merge pull request #2778 from yutkat/v42.138\n\nneovim: Add workaround for register overwriting on snippet",
+          "timestamp": "2022-04-26T13:13:51+09:00",
+          "tree_id": "89110fbfe7b72f6b1118c95410b4054e5b50e4f2",
+          "url": "https://github.com/yutkat/dotfiles/commit/d7d71f1b591ead9916eb6c8457054871dffe10e3"
+        },
+        "date": 1650946646327,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.22,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.107,
             "unit": "Second"
           }
         ]
