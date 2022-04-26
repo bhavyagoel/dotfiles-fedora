@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1650946647062,
+  "lastUpdate": 1650947180257,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -9143,6 +9143,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.107,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "106e14532b7b1eac12e74737a7234de5e4634059",
+          "message": "Merge pull request #2779 from yutkat/v42.139\n\nneovim: Fix the option style",
+          "timestamp": "2022-04-26T13:23:13+09:00",
+          "tree_id": "19955a1bd0928471bfc5ae87a9cf622604a19018",
+          "url": "https://github.com/yutkat/dotfiles/commit/106e14532b7b1eac12e74737a7234de5e4634059"
+        },
+        "date": 1650947179941,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.25,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.128,
             "unit": "Second"
           }
         ]
