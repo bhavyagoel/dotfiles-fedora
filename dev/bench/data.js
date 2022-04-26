@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1650947180257,
+  "lastUpdate": 1650952521494,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -9177,6 +9177,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.128,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4b899a8c0124a7ecd2cbebeae938d71ac11505e4",
+          "message": "Merge pull request #2780 from yutkat/v42.140\n\nneovim: Fix select mode",
+          "timestamp": "2022-04-26T14:52:21+09:00",
+          "tree_id": "e9915d213a4cddf8fddb2d34325b15bd1e9e0648",
+          "url": "https://github.com/yutkat/dotfiles/commit/4b899a8c0124a7ecd2cbebeae938d71ac11505e4"
+        },
+        "date": 1650952520832,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.17,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.088,
             "unit": "Second"
           }
         ]
