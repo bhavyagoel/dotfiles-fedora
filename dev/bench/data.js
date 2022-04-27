@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1651034266763,
+  "lastUpdate": 1651034549494,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -9235,6 +9235,40 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/yutkat/dotfiles/commit/788008d59fbf8fb04ca570582b38e00e84602ece"
         },
         "date": 1651034266209,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.19,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.094,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1cf4123331ffe989c8a8fcb3d260dfb84770d9ff",
+          "message": "Merge pull request #2782 from yutkat/v42.142\n\nwezterm: Enable csi-u",
+          "timestamp": "2022-04-27T13:39:36+09:00",
+          "tree_id": "d9e8128eb113b793898259edef0d38d3aa7c02b2",
+          "url": "https://github.com/yutkat/dotfiles/commit/1cf4123331ffe989c8a8fcb3d260dfb84770d9ff"
+        },
+        "date": 1651034548947,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
