@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1650952521494,
+  "lastUpdate": 1651034266763,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -9211,6 +9211,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.088,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "788008d59fbf8fb04ca570582b38e00e84602ece",
+          "message": "Merge pull request #2781 from yutkat/v42.141\n\nwezterm: Add csi-u",
+          "timestamp": "2022-04-27T13:34:36+09:00",
+          "tree_id": "24bb8ffb35a802288624837d4f52a087fd17f5a9",
+          "url": "https://github.com/yutkat/dotfiles/commit/788008d59fbf8fb04ca570582b38e00e84602ece"
+        },
+        "date": 1651034266209,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.19,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.094,
             "unit": "Second"
           }
         ]
