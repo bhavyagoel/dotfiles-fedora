@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1651221033568,
+  "lastUpdate": 1651228924305,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -9415,6 +9415,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.102,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ece335106b15fb40c4a385c1d1865e16266216c7",
+          "message": "Merge pull request #2787 from yutkat/v42.146\n\nzsh: Update the function to create minimal init.lua",
+          "timestamp": "2022-04-29T19:39:23+09:00",
+          "tree_id": "40d585b98eb7e5edc0e377118db26af9cf7d1603",
+          "url": "https://github.com/yutkat/dotfiles/commit/ece335106b15fb40c4a385c1d1865e16266216c7"
+        },
+        "date": 1651228924022,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.19,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.092,
             "unit": "Second"
           }
         ]
