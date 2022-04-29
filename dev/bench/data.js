@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1651213354846,
+  "lastUpdate": 1651219517273,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -9313,6 +9313,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.084,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b010dc75e5090a65bbc46d2b7de512d89e6442cf",
+          "message": "Merge pull request #2784 from yutkat/v42.144\n\nneovim: Update lsp-installer to latest config",
+          "timestamp": "2022-04-29T17:01:52+09:00",
+          "tree_id": "43df4ae2d089ad450f65fe148fa530933e4eb429",
+          "url": "https://github.com/yutkat/dotfiles/commit/b010dc75e5090a65bbc46d2b7de512d89e6442cf"
+        },
+        "date": 1651219516592,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.17,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.087,
             "unit": "Second"
           }
         ]
