@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1651034549494,
+  "lastUpdate": 1651213354846,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -9279,6 +9279,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.094,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "defe3450b74830565249ccd574d8e8a902311e14",
+          "message": "Merge pull request #2783 from yutkat/v42.143\n\nneovim: Add benfowler/telescope-luasnip.nvim",
+          "timestamp": "2022-04-29T15:19:35+09:00",
+          "tree_id": "397a153e65778347d21977a3b0ac7adcc13778af",
+          "url": "https://github.com/yutkat/dotfiles/commit/defe3450b74830565249ccd574d8e8a902311e14"
+        },
+        "date": 1651213354338,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.16,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.084,
             "unit": "Second"
           }
         ]
