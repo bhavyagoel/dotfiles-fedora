@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1651228924305,
+  "lastUpdate": 1651293367563,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -9449,6 +9449,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.092,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b563727477697d03a58b75d9a65fa6a617b9e98e",
+          "message": "Merge pull request #2788 from yutkat/v42.147\n\nzsh: Change vim to nvim",
+          "timestamp": "2022-04-30T13:32:45+09:00",
+          "tree_id": "7fc45eff338985a7acab49488a2f5b309acd8cef",
+          "url": "https://github.com/yutkat/dotfiles/commit/b563727477697d03a58b75d9a65fa6a617b9e98e"
+        },
+        "date": 1651293366971,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.23,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.111,
             "unit": "Second"
           }
         ]
