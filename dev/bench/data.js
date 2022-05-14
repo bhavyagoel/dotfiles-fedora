@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1652533958820,
+  "lastUpdate": 1652538901190,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -9585,6 +9585,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.075,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "924de867e6cf16808bd2b730ac0709c32c15e634",
+          "message": "Merge pull request #2844 from yutkat/v42.203\n\nneovim: Fix the whitespace checker",
+          "timestamp": "2022-05-14T23:32:08+09:00",
+          "tree_id": "2aff5c6f7592d18d1c36144b94864768a7370161",
+          "url": "https://github.com/yutkat/dotfiles/commit/924de867e6cf16808bd2b730ac0709c32c15e634"
+        },
+        "date": 1652538900646,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.19,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.07,
             "unit": "Second"
           }
         ]
