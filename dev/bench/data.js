@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1652525361811,
+  "lastUpdate": 1652525924103,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -9517,6 +9517,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.07,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4e32ef76ca4033f5510a9e4c723158a37576ac9d",
+          "message": "Merge pull request #2842 from yutkat/v42.201\n\nzsh: Fix the unit for profiler",
+          "timestamp": "2022-05-14T19:55:25+09:00",
+          "tree_id": "e3a7340050e71789f8ccdffa0b2b21773b9a8560",
+          "url": "https://github.com/yutkat/dotfiles/commit/4e32ef76ca4033f5510a9e4c723158a37576ac9d"
+        },
+        "date": 1652525923538,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.24,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.088,
             "unit": "Second"
           }
         ]
