@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1652538901190,
+  "lastUpdate": 1652540627858,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -9619,6 +9619,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.07,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c1feb9e10e718f7491d57d62c65db048b12bba23",
+          "message": "Merge pull request #2845 from yutkat/v42.204\n\nneovim: Update telescope",
+          "timestamp": "2022-05-15T00:00:23+09:00",
+          "tree_id": "b392661d772d3a483c0274db855337325a27db53",
+          "url": "https://github.com/yutkat/dotfiles/commit/c1feb9e10e718f7491d57d62c65db048b12bba23"
+        },
+        "date": 1652540627310,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.23,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.089,
             "unit": "Second"
           }
         ]
