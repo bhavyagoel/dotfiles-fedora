@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1652525924103,
+  "lastUpdate": 1652533958820,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -9551,6 +9551,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.088,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6c8bc4f3660d1d0c35ed7ea05634b8735d3a065c",
+          "message": "Merge pull request #2843 from yutkat/v42.202\n\nneovim: Fix the cursor color",
+          "timestamp": "2022-05-14T22:09:56+09:00",
+          "tree_id": "d4940f1ff9694a17b55a5212634c7308b07920d7",
+          "url": "https://github.com/yutkat/dotfiles/commit/6c8bc4f3660d1d0c35ed7ea05634b8735d3a065c"
+        },
+        "date": 1652533958556,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.2,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.075,
             "unit": "Second"
           }
         ]
