@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1652601481414,
+  "lastUpdate": 1652611361979,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -9721,6 +9721,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.061,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6f20b7b6702897a7afb78a8715744dac03a6db78",
+          "message": "Merge pull request #2848 from yutkat/v42.207\n\nneovim: Fix neo-tree",
+          "timestamp": "2022-05-15T19:39:59+09:00",
+          "tree_id": "aa256a5f341febe8c9efce09b8330ff6e0126efc",
+          "url": "https://github.com/yutkat/dotfiles/commit/6f20b7b6702897a7afb78a8715744dac03a6db78"
+        },
+        "date": 1652611361617,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.19,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.06,
             "unit": "Second"
           }
         ]
