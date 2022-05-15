@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1652611361979,
+  "lastUpdate": 1652624469274,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -9745,6 +9745,40 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/yutkat/dotfiles/commit/6f20b7b6702897a7afb78a8715744dac03a6db78"
         },
         "date": 1652611361617,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.19,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.06,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e63ffabf8c99bd182f3ff83c5b5cf6d64efa717c",
+          "message": "Merge pull request #2849 from yutkat/v42.208\n\nneovim: Update null-ls",
+          "timestamp": "2022-05-15T23:17:57+09:00",
+          "tree_id": "565df576560437dd30fefab74e891392f53aa078",
+          "url": "https://github.com/yutkat/dotfiles/commit/e63ffabf8c99bd182f3ff83c5b5cf6d64efa717c"
+        },
+        "date": 1652624468736,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
