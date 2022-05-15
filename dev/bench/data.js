@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1652540949483,
+  "lastUpdate": 1652601481414,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -9687,6 +9687,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.082,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c59cf1366e338308c9a1bbba2be1c4b5ca51fd78",
+          "message": "Merge pull request #2847 from yutkat/v42.206\n\nneovim: Fix to setup the sequence for colorsheme",
+          "timestamp": "2022-05-15T16:55:29+09:00",
+          "tree_id": "b5d152de45b59a2ffaf08b2c76def082f93a5816",
+          "url": "https://github.com/yutkat/dotfiles/commit/c59cf1366e338308c9a1bbba2be1c4b5ca51fd78"
+        },
+        "date": 1652601481126,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.21,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.061,
             "unit": "Second"
           }
         ]
