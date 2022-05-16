@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1652663885518,
+  "lastUpdate": 1652667070048,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -9891,6 +9891,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.061,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d746fc5b059da1ac54b6d81b8691a23e0dadf450",
+          "message": "Merge pull request #2853 from yutkat/v42.212\n\nzsh: Improve performance for boot",
+          "timestamp": "2022-05-16T11:08:06+09:00",
+          "tree_id": "113c0e237487cb36b3312a38f408334788ce77a3",
+          "url": "https://github.com/yutkat/dotfiles/commit/d746fc5b059da1ac54b6d81b8691a23e0dadf450"
+        },
+        "date": 1652667069734,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.22,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.073,
             "unit": "Second"
           }
         ]
