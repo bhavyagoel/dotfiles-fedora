@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1652717746372,
+  "lastUpdate": 1652718705564,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -9993,6 +9993,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.061,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5ce301088b928b2dfa82d03bce90b1b08cdd76ad",
+          "message": "Merge pull request #2856 from yutkat/v42.215\n\nneovim: Try possession.nvim",
+          "timestamp": "2022-05-17T01:28:33+09:00",
+          "tree_id": "106ed980dd45a8fa3de6d6953a9715d4e494b266",
+          "url": "https://github.com/yutkat/dotfiles/commit/5ce301088b928b2dfa82d03bce90b1b08cdd76ad"
+        },
+        "date": 1652718705015,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.06,
             "unit": "Second"
           }
         ]
