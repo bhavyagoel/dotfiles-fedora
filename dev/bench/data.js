@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1652667644290,
+  "lastUpdate": 1652717746372,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -9959,6 +9959,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.06,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cdfe4c2e5f1444ef4aeaf414c7b1268bbc4599b8",
+          "message": "Merge pull request #2855 from yutkat/v42.214\n\nneovim: Improve performance on matchup",
+          "timestamp": "2022-05-17T01:12:29+09:00",
+          "tree_id": "410f9d978e0ae49d8c29c8e94b394bc33ae72d6d",
+          "url": "https://github.com/yutkat/dotfiles/commit/cdfe4c2e5f1444ef4aeaf414c7b1268bbc4599b8"
+        },
+        "date": 1652717745842,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.061,
             "unit": "Second"
           }
         ]
