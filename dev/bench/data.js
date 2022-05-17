@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1652751008844,
+  "lastUpdate": 1652751718478,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -10119,6 +10119,40 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/yutkat/dotfiles/commit/d54e8435df15f982d84c432aeec39a3f988cda07"
         },
         "date": 1652751008566,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.06,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "00f2fe68c991326f586d6ae00ff5eda58a0e2947",
+          "message": "Merge pull request #2860 from yutkat/v42.219\n\nneovim: Fix termguicolors",
+          "timestamp": "2022-05-17T10:39:12+09:00",
+          "tree_id": "dc55b3a5a2cce84b76f006aef96cf04a20b55ed1",
+          "url": "https://github.com/yutkat/dotfiles/commit/00f2fe68c991326f586d6ae00ff5eda58a0e2947"
+        },
+        "date": 1652751718158,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
