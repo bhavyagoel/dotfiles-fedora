@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1652751718478,
+  "lastUpdate": 1652752884400,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -10158,6 +10158,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh load time",
             "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.06,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2d5759d515cdd9da609144a8798efb1780e2fcb4",
+          "message": "Merge pull request #2861 from yutkat/v42.220\n\nneovim: Update packer's config",
+          "timestamp": "2022-05-17T10:58:44+09:00",
+          "tree_id": "6dbd7b4f1fe0f5cf3808e793075dbfbf8e04c106",
+          "url": "https://github.com/yutkat/dotfiles/commit/2d5759d515cdd9da609144a8798efb1780e2fcb4"
+        },
+        "date": 1652752884132,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.16,
             "unit": "Second"
           },
           {
