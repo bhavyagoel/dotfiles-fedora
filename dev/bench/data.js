@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1652748190922,
+  "lastUpdate": 1652750076218,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -10061,6 +10061,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.06,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "88e77fac65493a1f6141831fce521cb8c09dd8fa",
+          "message": "Merge pull request #2858 from yutkat/v42.217\n\nneovim: Fix telescope's dependency",
+          "timestamp": "2022-05-17T10:11:14+09:00",
+          "tree_id": "052e0e8c470df14ca9ba80039b1c6f8d2c73df43",
+          "url": "https://github.com/yutkat/dotfiles/commit/88e77fac65493a1f6141831fce521cb8c09dd8fa"
+        },
+        "date": 1652750075907,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.22,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.073,
             "unit": "Second"
           }
         ]
