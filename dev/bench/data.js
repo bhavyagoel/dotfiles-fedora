@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1652750076218,
+  "lastUpdate": 1652751008844,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -10095,6 +10095,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.073,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d54e8435df15f982d84c432aeec39a3f988cda07",
+          "message": "Merge pull request #2859 from yutkat/v42.218\n\nneovim: Fix lazy load",
+          "timestamp": "2022-05-17T10:27:17+09:00",
+          "tree_id": "d00cb29e9c8e2c09cef8a66ef4929eeec03712dc",
+          "url": "https://github.com/yutkat/dotfiles/commit/d54e8435df15f982d84c432aeec39a3f988cda07"
+        },
+        "date": 1652751008566,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.06,
             "unit": "Second"
           }
         ]
