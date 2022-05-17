@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1652752884400,
+  "lastUpdate": 1652771488380,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -10197,6 +10197,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.06,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "45f92fb84eead77e315a42585ab016f07e13ae70",
+          "message": "Merge pull request #2862 from yutkat/v42.221\n\nzsh: Suppress warning on ssh",
+          "timestamp": "2022-05-17T16:08:16+09:00",
+          "tree_id": "42603ee6d08b8cca461dd892cb4022396b79319d",
+          "url": "https://github.com/yutkat/dotfiles/commit/45f92fb84eead77e315a42585ab016f07e13ae70"
+        },
+        "date": 1652771487757,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.052,
             "unit": "Second"
           }
         ]
