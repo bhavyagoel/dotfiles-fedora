@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1652718705564,
+  "lastUpdate": 1652748190922,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -10022,6 +10022,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh load time",
             "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.06,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b442a04d8746eeee0f1ffc4efdedb331b7f6c1a3",
+          "message": "Merge pull request #2857 from yutkat/v42.216\n\nneovim: Apply lazy load for libraries",
+          "timestamp": "2022-05-17T09:40:24+09:00",
+          "tree_id": "23f976d9c59cabc8b9f51eea28c6b9122d10169d",
+          "url": "https://github.com/yutkat/dotfiles/commit/b442a04d8746eeee0f1ffc4efdedb331b7f6c1a3"
+        },
+        "date": 1652748190641,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.17,
             "unit": "Second"
           },
           {
