@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1652771488380,
+  "lastUpdate": 1652837718495,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -10231,6 +10231,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.052,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bc34855909ef0e8ae9760c978e7ab8f92fdd182a",
+          "message": "Merge pull request #2863 from yutkat/v42.222\n\nneovim: Add template for lua",
+          "timestamp": "2022-05-18T10:32:21+09:00",
+          "tree_id": "268977366b270465788fdb4759fc7b43a9f2ea19",
+          "url": "https://github.com/yutkat/dotfiles/commit/bc34855909ef0e8ae9760c978e7ab8f92fdd182a"
+        },
+        "date": 1652837718175,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.06,
             "unit": "Second"
           }
         ]
