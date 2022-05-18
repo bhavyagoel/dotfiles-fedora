@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1652837718495,
+  "lastUpdate": 1652862799494,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -10255,6 +10255,40 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/yutkat/dotfiles/commit/bc34855909ef0e8ae9760c978e7ab8f92fdd182a"
         },
         "date": 1652837718175,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.06,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e570337e69cf499294b7ef06b57dec00621c2ade",
+          "message": "Merge pull request #2864 from yutkat/v42.223\n\ninstaller: Add wl-clipboard",
+          "timestamp": "2022-05-18T17:29:50+09:00",
+          "tree_id": "8a7f586268523acd0afd93c4d072292e603e2f7b",
+          "url": "https://github.com/yutkat/dotfiles/commit/e570337e69cf499294b7ef06b57dec00621c2ade"
+        },
+        "date": 1652862798938,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
