@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1652862799494,
+  "lastUpdate": 1652940302547,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -10299,6 +10299,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.06,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4afa39d3bbca68b3a0451016cef45cb45a1ad722",
+          "message": "Merge pull request #2865 from yutkat/v42.224\n\nneovim: Fix to trim whitespace",
+          "timestamp": "2022-05-19T15:01:52+09:00",
+          "tree_id": "f4cd8663f35ad1fe129066264697cfbd9c277c1b",
+          "url": "https://github.com/yutkat/dotfiles/commit/4afa39d3bbca68b3a0451016cef45cb45a1ad722"
+        },
+        "date": 1652940302153,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.22,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.073,
             "unit": "Second"
           }
         ]
