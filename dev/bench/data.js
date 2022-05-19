@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1652940302547,
+  "lastUpdate": 1652983789250,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -10333,6 +10333,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.073,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "33453463e4b1da70acfdf5bfba04e0f4c97273d0",
+          "message": "Merge pull request #2866 from yutkat/v42.225\n\nneovim: Fix repository's path",
+          "timestamp": "2022-05-20T03:06:02+09:00",
+          "tree_id": "4ba836541a7b2b09bfd326bbeea31de3b29aa575",
+          "url": "https://github.com/yutkat/dotfiles/commit/33453463e4b1da70acfdf5bfba04e0f4c97273d0"
+        },
+        "date": 1652983788482,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.21,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.07,
             "unit": "Second"
           }
         ]
