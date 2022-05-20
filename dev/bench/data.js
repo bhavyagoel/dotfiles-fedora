@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1653015763367,
+  "lastUpdate": 1653021898440,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -10401,6 +10401,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.05,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7a186f27ae36c1de793571a8c350581d5bae8be0",
+          "message": "Merge pull request #2868 from yutkat/v42.227\n\nneovim: Fix the plugin on ssh",
+          "timestamp": "2022-05-20T13:42:08+09:00",
+          "tree_id": "988309e1bbda6f42caa9958f97f384eb8f64055a",
+          "url": "https://github.com/yutkat/dotfiles/commit/7a186f27ae36c1de793571a8c350581d5bae8be0"
+        },
+        "date": 1653021898143,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.21,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.075,
             "unit": "Second"
           }
         ]
