@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1653039976756,
+  "lastUpdate": 1653040121814,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -10469,6 +10469,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.061,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "01f28abe547b8c6f25bc80d600e153144a931f27",
+          "message": "Merge pull request #2870 from yutkat/v42.229\n\nneovim: Fix autocmd to lua",
+          "timestamp": "2022-05-20T18:44:09+09:00",
+          "tree_id": "6509a4bb41328e0587a3f7037237e4ba9ab915ec",
+          "url": "https://github.com/yutkat/dotfiles/commit/01f28abe547b8c6f25bc80d600e153144a931f27"
+        },
+        "date": 1653040120964,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.22,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.071,
             "unit": "Second"
           }
         ]
