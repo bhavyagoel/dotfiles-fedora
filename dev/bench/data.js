@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1653040121814,
+  "lastUpdate": 1653050713741,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -10503,6 +10503,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.071,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "01a09bd4aac9e2eb9daa751dc8389e10f5d6fafd",
+          "message": "Merge pull request #2871 from yutkat/v42.230\n\nneovim: Reenable ziontee113/syntax-tree-surfer",
+          "timestamp": "2022-05-20T21:42:11+09:00",
+          "tree_id": "32dea1a2076ea9df730291eaa538477948d15125",
+          "url": "https://github.com/yutkat/dotfiles/commit/01a09bd4aac9e2eb9daa751dc8389e10f5d6fafd"
+        },
+        "date": 1653050713201,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.06,
             "unit": "Second"
           }
         ]
