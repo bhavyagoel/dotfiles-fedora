@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1653021898440,
+  "lastUpdate": 1653039976756,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -10435,6 +10435,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.075,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b989ea9d70206839e41fff2982a808c756a8b10e",
+          "message": "Merge pull request #2869 from yutkat/v42.228\n\nneovim: Update the myplugins directory structure",
+          "timestamp": "2022-05-20T18:43:37+09:00",
+          "tree_id": "158f82c156e50fa3ee0d419faefa63e447f8bc7c",
+          "url": "https://github.com/yutkat/dotfiles/commit/b989ea9d70206839e41fff2982a808c756a8b10e"
+        },
+        "date": 1653039976463,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.061,
             "unit": "Second"
           }
         ]
