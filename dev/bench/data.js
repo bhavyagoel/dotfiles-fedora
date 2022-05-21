@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1653063159599,
+  "lastUpdate": 1653122932354,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -10605,6 +10605,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.069,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f7e93758a24a9de53819f80fa41578e059f93f90",
+          "message": "Merge pull request #2874 from yutkat/v42.233\n\nneovim: Separate into plugin",
+          "timestamp": "2022-05-21T17:45:37+09:00",
+          "tree_id": "bbc7ad75e0e3fc610be17ff3efd0f0d11a8e7a92",
+          "url": "https://github.com/yutkat/dotfiles/commit/f7e93758a24a9de53819f80fa41578e059f93f90"
+        },
+        "date": 1653122931654,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.17,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.06,
             "unit": "Second"
           }
         ]
