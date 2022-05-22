@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1653122932354,
+  "lastUpdate": 1653203353826,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -10634,6 +10634,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh load time",
             "value": 0.17,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.06,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c6769e7d7e5b7110d56e33b8a1b17c1172aa5505",
+          "message": "Merge pull request #2875 from yutkat/v42.234\n\nneovim: Fix treesitter's mappings",
+          "timestamp": "2022-05-22T16:06:29+09:00",
+          "tree_id": "14e8f3fea4a07ed63dd93fc55464cd34a9e2e81b",
+          "url": "https://github.com/yutkat/dotfiles/commit/c6769e7d7e5b7110d56e33b8a1b17c1172aa5505"
+        },
+        "date": 1653203353560,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
             "unit": "Second"
           },
           {
