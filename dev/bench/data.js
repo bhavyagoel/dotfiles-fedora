@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1653203353826,
+  "lastUpdate": 1653213780047,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -10673,6 +10673,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.06,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fcbff80f536571946aecb994db47535f3ad57d1f",
+          "message": "Merge pull request #2876 from yutkat/v42.235\n\nneovim: Remove unused files",
+          "timestamp": "2022-05-22T18:59:47+09:00",
+          "tree_id": "ee62ef8d70fb13c28583e08b3ec75c6b92a44544",
+          "url": "https://github.com/yutkat/dotfiles/commit/fcbff80f536571946aecb994db47535f3ad57d1f"
+        },
+        "date": 1653213779501,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.21,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.07,
             "unit": "Second"
           }
         ]
