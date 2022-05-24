@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1653213780047,
+  "lastUpdate": 1653370905516,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -10707,6 +10707,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.07,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "103947911911211fe7463c7897d78feb07f7f6a7",
+          "message": "Merge pull request #2877 from yutkat/v42.236\n\nwezterm: Fix neovim's path",
+          "timestamp": "2022-05-24T14:38:20+09:00",
+          "tree_id": "52252cc1fe6fedc9f5f33a03032c193c8c294463",
+          "url": "https://github.com/yutkat/dotfiles/commit/103947911911211fe7463c7897d78feb07f7f6a7"
+        },
+        "date": 1653370904800,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.15,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.055,
             "unit": "Second"
           }
         ]
