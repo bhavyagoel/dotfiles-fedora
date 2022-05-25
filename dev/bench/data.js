@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1653396373768,
+  "lastUpdate": 1653458928588,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -10775,6 +10775,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.061,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6930c95f033803b5a4a0f06e50b990dfc1b201a0",
+          "message": "Merge pull request #2879 from yutkat/v42.238\n\nneovim: Change the keymap for edgemotion",
+          "timestamp": "2022-05-25T15:05:58+09:00",
+          "tree_id": "e30b452b2ca2c06207a2cd0385c3a233416ad435",
+          "url": "https://github.com/yutkat/dotfiles/commit/6930c95f033803b5a4a0f06e50b990dfc1b201a0"
+        },
+        "date": 1653458928294,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.19,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.062,
             "unit": "Second"
           }
         ]
