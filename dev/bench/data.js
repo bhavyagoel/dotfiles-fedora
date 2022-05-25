@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1653458928588,
+  "lastUpdate": 1653459233816,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -10809,6 +10809,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.062,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "eafc20e5505c2de86efdcd2e19ab4c018f64b894",
+          "message": "Merge pull request #2880 from yutkat/v42.239\n\nneovim: Change hop's mapping",
+          "timestamp": "2022-05-25T15:11:19+09:00",
+          "tree_id": "a7d3c97c3b9fca347e8448d2fdcf96027be2afcf",
+          "url": "https://github.com/yutkat/dotfiles/commit/eafc20e5505c2de86efdcd2e19ab4c018f64b894"
+        },
+        "date": 1653459233568,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.17,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.06,
             "unit": "Second"
           }
         ]
