@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1653672413589,
+  "lastUpdate": 1653673957124,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -10979,6 +10979,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.064,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "82cb31fe97effa1f54ca968708c6f4285a589d28",
+          "message": "Merge pull request #2885 from yutkat/v42.244\n\nneovim: Add vale",
+          "timestamp": "2022-05-28T02:49:29+09:00",
+          "tree_id": "31b7616e08b482163f51b41fc45ad1a2d9170368",
+          "url": "https://github.com/yutkat/dotfiles/commit/82cb31fe97effa1f54ca968708c6f4285a589d28"
+        },
+        "date": 1653673956572,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.06,
             "unit": "Second"
           }
         ]
