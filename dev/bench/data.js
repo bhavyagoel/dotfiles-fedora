@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1653672046917,
+  "lastUpdate": 1653672413589,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -10945,6 +10945,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.068,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4085fc90da0b796d4fb3bab4c3192d79b09e3169",
+          "message": "Merge pull request #2884 from yutkat/v42.243\n\nsway: Sanitize",
+          "timestamp": "2022-05-28T02:24:05+09:00",
+          "tree_id": "4c0aa2b6cff3bf70f42ee59911b298f5c7bf3155",
+          "url": "https://github.com/yutkat/dotfiles/commit/4085fc90da0b796d4fb3bab4c3192d79b09e3169"
+        },
+        "date": 1653672413250,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.2,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.064,
             "unit": "Second"
           }
         ]
