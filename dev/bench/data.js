@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1653617559408,
+  "lastUpdate": 1653620038103,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -10872,6 +10872,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh load time",
             "value": 0.16,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.06,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6094ec5b4238b48b075fb2c3465fc09d10e7f957",
+          "message": "Merge pull request #2882 from yutkat/v42.241\n\nwezterm: Update to load the local config",
+          "timestamp": "2022-05-27T11:51:13+09:00",
+          "tree_id": "d70230e9322453aa1a5ac8911c52098fe53e8c20",
+          "url": "https://github.com/yutkat/dotfiles/commit/6094ec5b4238b48b075fb2c3465fc09d10e7f957"
+        },
+        "date": 1653620037802,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
             "unit": "Second"
           },
           {
