@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1653742575437,
+  "lastUpdate": 1653800157715,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -11042,6 +11042,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh load time",
             "value": 0.16,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.05,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a9b80b1953118d1175e492738d1d71e6a0040d57",
+          "message": "Merge pull request #2887 from yutkat/v42.246\n\nneovim: Fix mappings",
+          "timestamp": "2022-05-29T13:52:36+09:00",
+          "tree_id": "6a5e38a4803966833a221cfc6e9b92463e2be801",
+          "url": "https://github.com/yutkat/dotfiles/commit/a9b80b1953118d1175e492738d1d71e6a0040d57"
+        },
+        "date": 1653800157185,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.14,
             "unit": "Second"
           },
           {
