@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1653960644501,
+  "lastUpdate": 1653963261316,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -11149,6 +11149,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.06,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d6d575b0173b064b3f8610c0c8c3e939a3583aed",
+          "message": "Create codeql-analysis.yml",
+          "timestamp": "2022-05-31T11:10:17+09:00",
+          "tree_id": "2474e9775f9dcbc5d4d0a77d89a7e6c9f7f6665e",
+          "url": "https://github.com/yutkat/dotfiles/commit/d6d575b0173b064b3f8610c0c8c3e939a3583aed"
+        },
+        "date": 1653963260620,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.24,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.07,
             "unit": "Second"
           }
         ]
