@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1653804378602,
+  "lastUpdate": 1653960644501,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -11115,6 +11115,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.07,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fad5869f8cd8aefdbd5645e4c775469b30cf1ead",
+          "message": "Merge pull request #2889 from yutkat/v42.248\n\nneovim: Add gj/gk",
+          "timestamp": "2022-05-31T10:27:28+09:00",
+          "tree_id": "5754e50daebdd5766d634b84e7c7fede712e8c90",
+          "url": "https://github.com/yutkat/dotfiles/commit/fad5869f8cd8aefdbd5645e4c775469b30cf1ead"
+        },
+        "date": 1653960644201,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.19,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.06,
             "unit": "Second"
           }
         ]
