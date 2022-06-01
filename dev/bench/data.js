@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1653964103204,
+  "lastUpdate": 1654048591962,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -11212,6 +11212,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh load time",
             "value": 0.17,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.06,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "45f8e4c8ee8ee0719c69cf788c9961cd10bca423",
+          "message": "Merge pull request #2891 from yutkat/v42.250\n\nneovim: Fix iron's config",
+          "timestamp": "2022-06-01T10:53:27+09:00",
+          "tree_id": "3c7518ad3eea4721aad61761b0a5004ab7c541ac",
+          "url": "https://github.com/yutkat/dotfiles/commit/45f8e4c8ee8ee0719c69cf788c9961cd10bca423"
+        },
+        "date": 1654048591666,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
             "unit": "Second"
           },
           {
