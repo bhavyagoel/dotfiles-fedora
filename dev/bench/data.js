@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1654077878257,
+  "lastUpdate": 1654158626008,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -11285,6 +11285,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.061,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "76a68648c9c4a4da9c85844177dba52b22c38c57",
+          "message": "Merge pull request #2893 from yutkat/v42.252\n\nneovim: Fix cursor postion",
+          "timestamp": "2022-06-02T17:24:56+09:00",
+          "tree_id": "d52f73724a39affe5d9381de99cd08067d37c807",
+          "url": "https://github.com/yutkat/dotfiles/commit/76a68648c9c4a4da9c85844177dba52b22c38c57"
+        },
+        "date": 1654158625460,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.16,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.056,
             "unit": "Second"
           }
         ]
