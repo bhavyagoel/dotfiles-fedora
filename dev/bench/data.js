@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1654158626008,
+  "lastUpdate": 1654159036570,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -11319,6 +11319,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.056,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "79d91f216c3e4f06cab246974ed3501733625dfe",
+          "message": "Merge pull request #2894 from yutkat/v42.253\n\nneovim: Add hrsh7th/nvim-pasta",
+          "timestamp": "2022-06-02T17:29:37+09:00",
+          "tree_id": "f6dc34987a25a9ce7821664ca4bbd4ef940c0045",
+          "url": "https://github.com/yutkat/dotfiles/commit/79d91f216c3e4f06cab246974ed3501733625dfe"
+        },
+        "date": 1654159035726,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.062,
             "unit": "Second"
           }
         ]
