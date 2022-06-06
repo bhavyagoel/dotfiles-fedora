@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1654509422873,
+  "lastUpdate": 1654533309491,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -11586,6 +11586,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh load time",
             "value": 0.17,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.06,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2e323fd2a46daa72f943edd960fff6a634186cd1",
+          "message": "Merge pull request #2902 from yutkat/v42.261\n\nneovim: Change session-manager plugin to possession",
+          "timestamp": "2022-06-07T01:32:23+09:00",
+          "tree_id": "ff71b7809ea7abe53c8c89ee24e770c64d9e56f9",
+          "url": "https://github.com/yutkat/dotfiles/commit/2e323fd2a46daa72f943edd960fff6a634186cd1"
+        },
+        "date": 1654533309207,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
             "unit": "Second"
           },
           {
