@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1654482420808,
+  "lastUpdate": 1654484028618,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -11479,6 +11479,40 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/yutkat/dotfiles/commit/31228a58d0c24c3cf193d90fcd1f3193ceb11280"
         },
         "date": 1654482419988,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.06,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0ff5e2a42324f4614b63a4f6e802f03094279541",
+          "message": "Merge pull request #2899 from yutkat/v42.258\n\nneovim: Update bufferline on session",
+          "timestamp": "2022-06-06T11:51:07+09:00",
+          "tree_id": "2197912acfe9dc12cd280fe2edfbda03a5483fba",
+          "url": "https://github.com/yutkat/dotfiles/commit/0ff5e2a42324f4614b63a4f6e802f03094279541"
+        },
+        "date": 1654484028352,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
