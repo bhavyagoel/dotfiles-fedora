@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1654481190692,
+  "lastUpdate": 1654482420808,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -11455,6 +11455,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.07,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "31228a58d0c24c3cf193d90fcd1f3193ceb11280",
+          "message": "Merge pull request #2898 from yutkat/v42.257\n\nneovim: Update milfeulle' config",
+          "timestamp": "2022-06-06T11:23:25+09:00",
+          "tree_id": "fd0ac67f1c0adb160c300fce3d665628e054458d",
+          "url": "https://github.com/yutkat/dotfiles/commit/31228a58d0c24c3cf193d90fcd1f3193ceb11280"
+        },
+        "date": 1654482419988,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.06,
             "unit": "Second"
           }
         ]
