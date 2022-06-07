@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1654533309491,
+  "lastUpdate": 1654568170870,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -11620,6 +11620,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh load time",
             "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.06,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8f860211a89a59bd55e9b470a52ca2d3066fa051",
+          "message": "Merge pull request #2903 from yutkat/v42.262\n\nneovim: Rename nvim-telescope/telescope-live-grep-args.nvim",
+          "timestamp": "2022-06-07T11:12:23+09:00",
+          "tree_id": "d3d143bffd5c6071707f49e0a6f464f55aa4809a",
+          "url": "https://github.com/yutkat/dotfiles/commit/8f860211a89a59bd55e9b470a52ca2d3066fa051"
+        },
+        "date": 1654568170129,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.17,
             "unit": "Second"
           },
           {
