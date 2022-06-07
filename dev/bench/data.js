@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1654610378402,
+  "lastUpdate": 1654614004906,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -11795,6 +11795,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.071,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "843dae50aa2950cffae69e3db752e62ea5075a1d",
+          "message": "Merge pull request #2912 from yutkat/v42.267\n\ngit: Fix the wrong pager command #2911",
+          "timestamp": "2022-06-07T23:56:39+09:00",
+          "tree_id": "2fcdc49bba398077b937c62b3a0d7514dd4c3a58",
+          "url": "https://github.com/yutkat/dotfiles/commit/843dae50aa2950cffae69e3db752e62ea5075a1d"
+        },
+        "date": 1654614003580,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.11,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.043,
             "unit": "Second"
           }
         ]
