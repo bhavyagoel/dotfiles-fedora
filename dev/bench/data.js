@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1654570431338,
+  "lastUpdate": 1654583513176,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -11693,6 +11693,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.06,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e8b58f088cb0366461bfebb766ec9406f9943c0a",
+          "message": "Merge pull request #2905 from yutkat/v42.264\n\nneovim: Try johmsalas/text-case.nvim",
+          "timestamp": "2022-06-07T15:28:23+09:00",
+          "tree_id": "c7e2e1a855a0ea6a7a8881e228086d95fdead41e",
+          "url": "https://github.com/yutkat/dotfiles/commit/e8b58f088cb0366461bfebb766ec9406f9943c0a"
+        },
+        "date": 1654583512623,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.19,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.071,
             "unit": "Second"
           }
         ]
