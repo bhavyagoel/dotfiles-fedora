@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1654568170870,
+  "lastUpdate": 1654570431338,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -11654,6 +11654,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh load time",
             "value": 0.17,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.06,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e9864a4158c416cba7f624f90b4d25751388305c",
+          "message": "Merge pull request #2904 from yutkat/v42.263\n\nneovim: Fix pattern match",
+          "timestamp": "2022-06-07T11:50:37+09:00",
+          "tree_id": "4bc46aaa0440979c7eeae936372b37b5c1db1df9",
+          "url": "https://github.com/yutkat/dotfiles/commit/e9864a4158c416cba7f624f90b4d25751388305c"
+        },
+        "date": 1654570430835,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.16,
             "unit": "Second"
           },
           {
