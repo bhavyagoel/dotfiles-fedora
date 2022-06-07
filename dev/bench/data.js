@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1654597107229,
+  "lastUpdate": 1654610378402,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -11761,6 +11761,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.083,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a726cc2dc7b96114dbd677c1fde3ac1911742e0b",
+          "message": "Merge pull request #2909 from yutkat/v42.266\n\nzsh: Remove which command because it is provided by zsh #2906",
+          "timestamp": "2022-06-07T22:55:52+09:00",
+          "tree_id": "ac82b35186dbc587385d22aa8ccdb8439548fe08",
+          "url": "https://github.com/yutkat/dotfiles/commit/a726cc2dc7b96114dbd677c1fde3ac1911742e0b"
+        },
+        "date": 1654610377691,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.22,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.071,
             "unit": "Second"
           }
         ]
