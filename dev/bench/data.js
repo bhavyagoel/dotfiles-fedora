@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1654652296981,
+  "lastUpdate": 1654677036304,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -11863,6 +11863,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.062,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "74b0e776837400e7a7d84cea7aef08ef3b686c00",
+          "message": "Merge pull request #2914 from yutkat/v42.269\n\nneovim: Add xiyaowong/nvim-cursorword",
+          "timestamp": "2022-06-08T17:26:53+09:00",
+          "tree_id": "36d2b5a70c34270d40bccfad7c11417766195956",
+          "url": "https://github.com/yutkat/dotfiles/commit/74b0e776837400e7a7d84cea7aef08ef3b686c00"
+        },
+        "date": 1654677035568,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.06,
             "unit": "Second"
           }
         ]
