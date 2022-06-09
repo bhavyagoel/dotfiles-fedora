@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1654677036304,
+  "lastUpdate": 1654744257438,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -11897,6 +11897,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.06,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b9af72870c708cbf19ca56f6da74e9de99607738",
+          "message": "Merge pull request #2915 from yutkat/v42.270\n\nzsh: Fix nidhaloff/deep-translator",
+          "timestamp": "2022-06-09T12:07:04+09:00",
+          "tree_id": "5ae39eb8951c7572c37b08cf12e77cdb0c06c84a",
+          "url": "https://github.com/yutkat/dotfiles/commit/b9af72870c708cbf19ca56f6da74e9de99607738"
+        },
+        "date": 1654744256743,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.23,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.074,
             "unit": "Second"
           }
         ]
