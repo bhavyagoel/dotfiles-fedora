@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1654751932617,
+  "lastUpdate": 1654801097627,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -11999,6 +11999,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.06,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7fa493f26882992a11dd016459f87f679f7b68e0",
+          "message": "Merge pull request #2918 from yutkat/v42.273\n\nneovim: Fix text-case",
+          "timestamp": "2022-06-10T03:54:37+09:00",
+          "tree_id": "7a13c1e8425382d511a3476bf40f918d92b980a2",
+          "url": "https://github.com/yutkat/dotfiles/commit/7fa493f26882992a11dd016459f87f679f7b68e0"
+        },
+        "date": 1654801097310,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.22,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.073,
             "unit": "Second"
           }
         ]
