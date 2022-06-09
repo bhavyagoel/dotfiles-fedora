@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1654744257438,
+  "lastUpdate": 1654744627152,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -11931,6 +11931,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.074,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e31778562b8f52ca007369b31c8866b5caf2ffcb",
+          "message": "Merge pull request #2916 from yutkat/v42.271\n\nzsh : Fix authentication required",
+          "timestamp": "2022-06-09T12:13:31+09:00",
+          "tree_id": "3b274aec70aa03cb69e192f60c67b580d9c05e1b",
+          "url": "https://github.com/yutkat/dotfiles/commit/e31778562b8f52ca007369b31c8866b5caf2ffcb"
+        },
+        "date": 1654744626802,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.28,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.093,
             "unit": "Second"
           }
         ]
