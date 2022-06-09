@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1654744627152,
+  "lastUpdate": 1654751932617,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -11965,6 +11965,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.093,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "735081e29bac041bea2d194bc303da321060da3d",
+          "message": "Merge pull request #2917 from yutkat/v42.272\n\nzsh: Remove tmux-xpanes",
+          "timestamp": "2022-06-09T14:15:17+09:00",
+          "tree_id": "bfac943c546b87338769c9cc2ecc2965bbb866bc",
+          "url": "https://github.com/yutkat/dotfiles/commit/735081e29bac041bea2d194bc303da321060da3d"
+        },
+        "date": 1654751931895,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.06,
             "unit": "Second"
           }
         ]
