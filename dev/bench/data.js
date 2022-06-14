@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1655191925810,
+  "lastUpdate": 1655232190311,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -12101,6 +12101,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.06,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "91c57ee62856ea314093a52f3d47a627965877f5",
+          "message": "Merge pull request #2926 from yutkat/v42.281\n\nneovim: Fix neovim lua development environment",
+          "timestamp": "2022-06-15T03:38:58+09:00",
+          "tree_id": "a9e1e76a4482615843fe20bb7ae404d859efc5ec",
+          "url": "https://github.com/yutkat/dotfiles/commit/91c57ee62856ea314093a52f3d47a627965877f5"
+        },
+        "date": 1655232189168,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.23,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.071,
             "unit": "Second"
           }
         ]
