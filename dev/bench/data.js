@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1654801097627,
+  "lastUpdate": 1655188282296,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -12033,6 +12033,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.073,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8961e333e7f5e4b218bffc5eb2bd4e4472fc50c8",
+          "message": "Merge pull request #2924 from yutkat/v42.279\n\nneovim: Fix the session save",
+          "timestamp": "2022-06-14T15:27:01+09:00",
+          "tree_id": "401fa40e9df40fa8d14a28ac93d50f0b3aa6f643",
+          "url": "https://github.com/yutkat/dotfiles/commit/8961e333e7f5e4b218bffc5eb2bd4e4472fc50c8"
+        },
+        "date": 1655188281161,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.19,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.06,
             "unit": "Second"
           }
         ]
