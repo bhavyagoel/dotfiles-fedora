@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1655262016068,
+  "lastUpdate": 1655288137940,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -12169,6 +12169,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.07,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d52593611569cb5ccbe673965d019df8ad58c484",
+          "message": "Merge pull request #2928 from yutkat/v42.283\n\nneovim: Update the CurrentWord color",
+          "timestamp": "2022-06-15T19:12:55+09:00",
+          "tree_id": "2840474c08ff68889140ca9296584e6da65db974",
+          "url": "https://github.com/yutkat/dotfiles/commit/d52593611569cb5ccbe673965d019df8ad58c484"
+        },
+        "date": 1655288137638,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.17,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.06,
             "unit": "Second"
           }
         ]
