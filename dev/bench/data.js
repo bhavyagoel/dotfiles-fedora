@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1655232190311,
+  "lastUpdate": 1655262016068,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -12135,6 +12135,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.071,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "21f2c8fb01c8880f0aded24bde1f42ecdf0b8f8c",
+          "message": "Merge pull request #2927 from yutkat/v42.282\n\nneovim: Fix multiple open on telescope",
+          "timestamp": "2022-06-15T11:56:46+09:00",
+          "tree_id": "eedd0342256f2f32716061768291d3fab2fd96e6",
+          "url": "https://github.com/yutkat/dotfiles/commit/21f2c8fb01c8880f0aded24bde1f42ecdf0b8f8c"
+        },
+        "date": 1655262015480,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.21,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.07,
             "unit": "Second"
           }
         ]
