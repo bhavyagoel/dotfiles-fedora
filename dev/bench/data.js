@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1655288137940,
+  "lastUpdate": 1655365305809,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -12203,6 +12203,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.06,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "00faba55b7144270f0f1cad5eee4a05a4ef774cf",
+          "message": "Merge pull request #2929 from yutkat/v42.284\n\nneovim: Fix bufferline",
+          "timestamp": "2022-06-16T16:37:30+09:00",
+          "tree_id": "6ef2cce8bad969c47122419c83c571ad99ae01e3",
+          "url": "https://github.com/yutkat/dotfiles/commit/00faba55b7144270f0f1cad5eee4a05a4ef774cf"
+        },
+        "date": 1655365304649,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.23,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.073,
             "unit": "Second"
           }
         ]
