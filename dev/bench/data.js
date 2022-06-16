@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1655387983452,
+  "lastUpdate": 1655388883996,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -12271,6 +12271,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.07,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "87621a6536df906602eeedc3a6a7d873df9992d7",
+          "message": "Merge pull request #2931 from yutkat/v42.286\n\nzsh: Fix delta's completion",
+          "timestamp": "2022-06-16T23:11:36+09:00",
+          "tree_id": "5987115de704f4abed6b7c181313d3ab3d993735",
+          "url": "https://github.com/yutkat/dotfiles/commit/87621a6536df906602eeedc3a6a7d873df9992d7"
+        },
+        "date": 1655388883513,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.06,
             "unit": "Second"
           }
         ]
