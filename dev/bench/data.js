@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1655560543357,
+  "lastUpdate": 1655561100213,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -12407,6 +12407,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.061,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b69987d5abb0a6f1d0c32eeb780164ae5dd7b743",
+          "message": "Merge pull request #2935 from yutkat/v42.290\n\nneovim: Remove the python version checker",
+          "timestamp": "2022-06-18T23:02:21+09:00",
+          "tree_id": "c26ab9f44d72610fd993576bf4234a165d359bec",
+          "url": "https://github.com/yutkat/dotfiles/commit/b69987d5abb0a6f1d0c32eeb780164ae5dd7b743"
+        },
+        "date": 1655561099917,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.041,
             "unit": "Second"
           }
         ]
