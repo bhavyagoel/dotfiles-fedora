@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1655561100213,
+  "lastUpdate": 1655573735002,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -12441,6 +12441,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.041,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8cbb474b397e101634628ab9c29ec2172ea250f8",
+          "message": "Merge pull request #2936 from yutkat/v42.291\n\ndocs: Remove the gitter link",
+          "timestamp": "2022-06-19T02:31:13+09:00",
+          "tree_id": "a5f162675aa2d2a3ecf266e44773bc35e623422d",
+          "url": "https://github.com/yutkat/dotfiles/commit/8cbb474b397e101634628ab9c29ec2172ea250f8"
+        },
+        "date": 1655573733866,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.23,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.042,
             "unit": "Second"
           }
         ]
