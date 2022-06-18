@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1655492418175,
+  "lastUpdate": 1655560543357,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -12373,6 +12373,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.071,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bd65d4f838ffac65fd7e65c1d87a740ea277944c",
+          "message": "Merge pull request #2934 from yutkat/v42.289\n\nneovim: Use dial's convert case",
+          "timestamp": "2022-06-18T22:53:03+09:00",
+          "tree_id": "c80dae879030f1758cf9cde3970ef7cf9d45284a",
+          "url": "https://github.com/yutkat/dotfiles/commit/bd65d4f838ffac65fd7e65c1d87a740ea277944c"
+        },
+        "date": 1655560543075,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.19,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.061,
             "unit": "Second"
           }
         ]
