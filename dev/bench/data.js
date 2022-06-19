@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1655578527133,
+  "lastUpdate": 1655651560002,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -12509,6 +12509,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.04,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6cb8dd3f79d387f0f2cad5cef98899630a8de26d",
+          "message": "Merge pull request #2938 from yutkat/v42.293\n\nsway: Fix the unused config",
+          "timestamp": "2022-06-20T00:10:09+09:00",
+          "tree_id": "5b0cc29179446ac6e689096d40641ef8dd00286b",
+          "url": "https://github.com/yutkat/dotfiles/commit/6cb8dd3f79d387f0f2cad5cef98899630a8de26d"
+        },
+        "date": 1655651559724,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.17,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.034,
             "unit": "Second"
           }
         ]
