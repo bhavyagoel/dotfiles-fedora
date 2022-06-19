@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1655651790450,
+  "lastUpdate": 1655662129184,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -12611,6 +12611,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.038,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a8d4fd4350b987056819bd25c9a2fa50fdc7e4fb",
+          "message": "Merge pull request #2941 from yutkat/v42.296\n\nluakit: Add the configs",
+          "timestamp": "2022-06-20T03:05:52+09:00",
+          "tree_id": "96bd26f20ba55e8bcdabaee3726a9a5654cb4b4e",
+          "url": "https://github.com/yutkat/dotfiles/commit/a8d4fd4350b987056819bd25c9a2fa50fdc7e4fb"
+        },
+        "date": 1655662128692,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.036,
             "unit": "Second"
           }
         ]
