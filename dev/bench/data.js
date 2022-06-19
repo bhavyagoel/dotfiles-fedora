@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1655651638438,
+  "lastUpdate": 1655651790450,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -12567,6 +12567,40 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/yutkat/dotfiles/commit/f3b5c6b5d4b6aaa03db2cf0b004e6a8ebfe941f1"
         },
         "date": 1655651637705,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.038,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "61f48cee4fbffffe2d51bf5cd701dafffa2e353f",
+          "message": "Merge pull request #2940 from yutkat/v42.295\n\nwezterm: Fix wezterm's selection area",
+          "timestamp": "2022-06-20T00:12:01+09:00",
+          "tree_id": "8cf823874e26b6a6ef154bec279afd0f92ee069f",
+          "url": "https://github.com/yutkat/dotfiles/commit/61f48cee4fbffffe2d51bf5cd701dafffa2e353f"
+        },
+        "date": 1655651789706,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
