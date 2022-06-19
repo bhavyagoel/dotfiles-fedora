@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1655651560002,
+  "lastUpdate": 1655651638438,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -12543,6 +12543,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.034,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f3b5c6b5d4b6aaa03db2cf0b004e6a8ebfe941f1",
+          "message": "Merge pull request #2939 from yutkat/v42.294\n\nsway: Fix the window behavior",
+          "timestamp": "2022-06-20T00:11:04+09:00",
+          "tree_id": "ca85b6689c2ae26e2395ff1ec38f25df67221148",
+          "url": "https://github.com/yutkat/dotfiles/commit/f3b5c6b5d4b6aaa03db2cf0b004e6a8ebfe941f1"
+        },
+        "date": 1655651637705,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.038,
             "unit": "Second"
           }
         ]
