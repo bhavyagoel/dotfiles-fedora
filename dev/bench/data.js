@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1655662129184,
+  "lastUpdate": 1655695109985,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -12645,6 +12645,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.036,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "998228d5544f76745e1f316ffbba9ada210145f3",
+          "message": "Merge pull request #2942 from yutkat/v42.297\n\nneovim: Fix paste",
+          "timestamp": "2022-06-20T12:14:19+09:00",
+          "tree_id": "6329d62c4b30d1d375826910799bc71baaef3e59",
+          "url": "https://github.com/yutkat/dotfiles/commit/998228d5544f76745e1f316ffbba9ada210145f3"
+        },
+        "date": 1655695108875,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.23,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.042,
             "unit": "Second"
           }
         ]
