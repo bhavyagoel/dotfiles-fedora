@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1655795165463,
+  "lastUpdate": 1655819040295,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -12849,6 +12849,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.049,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cb8354985d6d3ec16346204c13f31019d4830214",
+          "message": "Merge pull request #2948 from yutkat/v42.303\n\nwezterm: Fix selection word",
+          "timestamp": "2022-06-21T22:41:11+09:00",
+          "tree_id": "5c5e786f88f931261a7bdb60ec3919ba852b5278",
+          "url": "https://github.com/yutkat/dotfiles/commit/cb8354985d6d3ec16346204c13f31019d4830214"
+        },
+        "date": 1655819039938,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.038,
             "unit": "Second"
           }
         ]
