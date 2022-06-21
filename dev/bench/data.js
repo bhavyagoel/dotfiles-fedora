@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1655774940137,
+  "lastUpdate": 1655779024237,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -12713,6 +12713,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.04,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "41390f677b1b739f612937a02ddfc4a67f6d01e8",
+          "message": "Merge pull request #2944 from yutkat/v42.299\n\nCI: Fix lua development environment",
+          "timestamp": "2022-06-21T11:33:50+09:00",
+          "tree_id": "b317afeb070e14e48f889ae71e84060e87fe127f",
+          "url": "https://github.com/yutkat/dotfiles/commit/41390f677b1b739f612937a02ddfc4a67f6d01e8"
+        },
+        "date": 1655779023929,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.24,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.044,
             "unit": "Second"
           }
         ]
