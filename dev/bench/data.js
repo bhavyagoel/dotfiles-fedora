@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1655880174792,
+  "lastUpdate": 1655916426332,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -12985,6 +12985,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.047,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ebb433fe4fc12133a86deb4ebbf47ae6cc6d51dd",
+          "message": "Merge pull request #2952 from yutkat/v42.307\n\nsway: Fix the keybind for bar mode",
+          "timestamp": "2022-06-23T01:44:15+09:00",
+          "tree_id": "4b40208843529a720de8edbe260382e9a5f7deb7",
+          "url": "https://github.com/yutkat/dotfiles/commit/ebb433fe4fc12133a86deb4ebbf47ae6cc6d51dd"
+        },
+        "date": 1655916426042,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.041,
             "unit": "Second"
           }
         ]
