@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1655819040295,
+  "lastUpdate": 1655871965025,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -12883,6 +12883,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.038,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4befcc999cdd93c30bb4d4339473bdee91259a9c",
+          "message": "Merge pull request #2949 from yutkat/v42.304\n\nzsh: Fix paru-clean",
+          "timestamp": "2022-06-22T13:22:06+09:00",
+          "tree_id": "6ec74d7b75810c9afa47d16cb896d9faf987b579",
+          "url": "https://github.com/yutkat/dotfiles/commit/4befcc999cdd93c30bb4d4339473bdee91259a9c"
+        },
+        "date": 1655871963795,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.17,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.031,
             "unit": "Second"
           }
         ]
