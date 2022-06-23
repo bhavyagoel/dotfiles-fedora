@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1655916426332,
+  "lastUpdate": 1655975693258,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -13019,6 +13019,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.041,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ee84be5167e95ce8ba4328d9f38fb5c823bbad63",
+          "message": "Merge pull request #2953 from yutkat/v42.308\n\nwezterm: Fix AcceptEnv error on wezterm ssh",
+          "timestamp": "2022-06-23T18:12:08+09:00",
+          "tree_id": "30d424271d7dea151eb99c30eecea97041128b66",
+          "url": "https://github.com/yutkat/dotfiles/commit/ee84be5167e95ce8ba4328d9f38fb5c823bbad63"
+        },
+        "date": 1655975692927,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.21,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.04,
             "unit": "Second"
           }
         ]
