@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1655975693258,
+  "lastUpdate": 1655996084875,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -13053,6 +13053,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.04,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a167610b49f23a4905849a21ae8241057cbcc2fb",
+          "message": "Merge pull request #2954 from yutkat/v42.309\n\nwezterm: Update animation_fps",
+          "timestamp": "2022-06-23T23:51:53+09:00",
+          "tree_id": "7c8fa85ab1ebc69db1488b6f347ce28798f266c5",
+          "url": "https://github.com/yutkat/dotfiles/commit/a167610b49f23a4905849a21ae8241057cbcc2fb"
+        },
+        "date": 1655996084541,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.17,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.038,
             "unit": "Second"
           }
         ]
