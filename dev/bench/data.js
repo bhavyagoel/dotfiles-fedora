@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1656038199720,
+  "lastUpdate": 1656040147442,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -13155,6 +13155,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.039,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e87642dfc5b481f2f1dea11b4bf09fb7b0ef6b53",
+          "message": "Merge pull request #2957 from yutkat/v42.312\n\nwezterm: Add ssh_domains from ~/.ssh/config",
+          "timestamp": "2022-06-24T12:06:27+09:00",
+          "tree_id": "bcafec68bcb5795e2efeca6752c4c7af20116fcf",
+          "url": "https://github.com/yutkat/dotfiles/commit/e87642dfc5b481f2f1dea11b4bf09fb7b0ef6b53"
+        },
+        "date": 1656040147132,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.04,
             "unit": "Second"
           }
         ]
