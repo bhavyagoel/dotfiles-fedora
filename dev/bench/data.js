@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1656075514273,
+  "lastUpdate": 1656076521421,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -13257,6 +13257,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.038,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "933df15155b6735776b95d32bb43b05a8edc16b1",
+          "message": "Merge pull request #2960 from yutkat/v42.315\n\nwezterm: Use xwayland",
+          "timestamp": "2022-06-24T22:12:29+09:00",
+          "tree_id": "eb9d435d47d39668ee390e42b686f5a09617ba1e",
+          "url": "https://github.com/yutkat/dotfiles/commit/933df15155b6735776b95d32bb43b05a8edc16b1"
+        },
+        "date": 1656076521101,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.22,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.04,
             "unit": "Second"
           }
         ]
