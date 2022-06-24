@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1656040147442,
+  "lastUpdate": 1656046919743,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -13189,6 +13189,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.04,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "15909aea372acf7a3a551770722a83393a96c06e",
+          "message": "Merge pull request #2958 from yutkat/v42.313\n\nwezterm: Delete the unused config",
+          "timestamp": "2022-06-24T13:59:32+09:00",
+          "tree_id": "3f074cb02993185834ab4edb03449fba485346ed",
+          "url": "https://github.com/yutkat/dotfiles/commit/15909aea372acf7a3a551770722a83393a96c06e"
+        },
+        "date": 1656046919481,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.033,
             "unit": "Second"
           }
         ]
