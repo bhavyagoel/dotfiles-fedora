@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1655997580944,
+  "lastUpdate": 1656038199720,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -13116,6 +13116,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh load time",
             "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.039,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ce6993a6326529da98477e83e69f9c7a3ff93bae",
+          "message": "Merge pull request #2956 from yutkat/v42.311\n\nzsh: Use osc7",
+          "timestamp": "2022-06-24T11:33:15+09:00",
+          "tree_id": "a7164efc8d64a740b71a49ed54af1c75b26661fc",
+          "url": "https://github.com/yutkat/dotfiles/commit/ce6993a6326529da98477e83e69f9c7a3ff93bae"
+        },
+        "date": 1656038199201,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.2,
             "unit": "Second"
           },
           {
