@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1656076521421,
+  "lastUpdate": 1656253731333,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -13291,6 +13291,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.04,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9d14538a52672c433088aef3c4178e7edba7618b",
+          "message": "Merge pull request #2961 from yutkat/v42.316\n\ni3: Fix the display off",
+          "timestamp": "2022-06-26T23:26:09+09:00",
+          "tree_id": "19e598284687e6229a37ddb13773814b7632e17a",
+          "url": "https://github.com/yutkat/dotfiles/commit/9d14538a52672c433088aef3c4178e7edba7618b"
+        },
+        "date": 1656253731037,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.035,
             "unit": "Second"
           }
         ]
