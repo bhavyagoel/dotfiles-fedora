@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1656414509415,
+  "lastUpdate": 1656427037207,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -13393,6 +13393,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.031,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "48405c5744d7c8bf82bd9535d4eb938b385bfdc9",
+          "message": "Merge pull request #2964 from yutkat/v42.319\n\ni3: Fix poweroff the display",
+          "timestamp": "2022-06-28T23:34:30+09:00",
+          "tree_id": "cc11b8ea5591aefe8fad66edeeae2345f39f0910",
+          "url": "https://github.com/yutkat/dotfiles/commit/48405c5744d7c8bf82bd9535d4eb938b385bfdc9"
+        },
+        "date": 1656427036872,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.03,
             "unit": "Second"
           }
         ]
