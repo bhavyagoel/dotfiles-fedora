@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1656472889979,
+  "lastUpdate": 1656475821848,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -13529,6 +13529,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.03,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3a6354b23046aacb599d2c11d03877883747d9a4",
+          "message": "Merge pull request #2968 from yutkat/v42.323\n\nwezterm: Fix the display for copy mode",
+          "timestamp": "2022-06-29T13:06:50+09:00",
+          "tree_id": "23cd2be1c3c945cdb6ac74268c900b8936ecd035",
+          "url": "https://github.com/yutkat/dotfiles/commit/3a6354b23046aacb599d2c11d03877883747d9a4"
+        },
+        "date": 1656475821144,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.032,
             "unit": "Second"
           }
         ]
