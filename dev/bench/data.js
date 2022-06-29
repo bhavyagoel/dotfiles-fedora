@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1656467381007,
+  "lastUpdate": 1656472889979,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -13495,6 +13495,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.034,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a0f9c848351a1c0a89f4a92db8ae3251c5171be6",
+          "message": "Merge pull request #2967 from yutkat/v42.322\n\nwezterm: Fix the status bar",
+          "timestamp": "2022-06-29T12:18:13+09:00",
+          "tree_id": "d22fc964db14eab834ed118a9b061077fd478dd4",
+          "url": "https://github.com/yutkat/dotfiles/commit/a0f9c848351a1c0a89f4a92db8ae3251c5171be6"
+        },
+        "date": 1656472889479,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.17,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.03,
             "unit": "Second"
           }
         ]
