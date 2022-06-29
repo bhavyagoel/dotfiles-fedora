@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1656463849675,
+  "lastUpdate": 1656467381007,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -13461,6 +13461,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.03,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6c58e8d9ada0a3df1881a63f21beabb9322fd2af",
+          "message": "Merge pull request #2966 from yutkat/v42.321\n\nwezterm: Fix the tab style",
+          "timestamp": "2022-06-29T10:47:02+09:00",
+          "tree_id": "31787173e76067ee78e3f19c7a4de6facf6f263a",
+          "url": "https://github.com/yutkat/dotfiles/commit/6c58e8d9ada0a3df1881a63f21beabb9322fd2af"
+        },
+        "date": 1656467380690,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.034,
             "unit": "Second"
           }
         ]
