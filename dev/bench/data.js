@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1656427037207,
+  "lastUpdate": 1656463849675,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -13422,6 +13422,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh load time",
             "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.03,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b403713dd5e342d6aaa9dd858cd793e930004bed",
+          "message": "Merge pull request #2965 from yutkat/v42.320\n\nluakit: Update the mouse binds",
+          "timestamp": "2022-06-29T09:47:41+09:00",
+          "tree_id": "070d29257a5d0480c885357cc4f8703ade8c98ac",
+          "url": "https://github.com/yutkat/dotfiles/commit/b403713dd5e342d6aaa9dd858cd793e930004bed"
+        },
+        "date": 1656463849011,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.17,
             "unit": "Second"
           },
           {
