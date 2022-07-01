@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1656649015814,
+  "lastUpdate": 1656652253668,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -13699,6 +13699,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.031,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cb3d1f5617b35287950613e4eea675bbc995d004",
+          "message": "Merge pull request #2974 from yutkat/v42.328\n\nwezterm: Change the tab position to top",
+          "timestamp": "2022-07-01T14:06:45+09:00",
+          "tree_id": "fc6ef7088f5c2245930184b4ef7efee9a12703d9",
+          "url": "https://github.com/yutkat/dotfiles/commit/cb3d1f5617b35287950613e4eea675bbc995d004"
+        },
+        "date": 1656652252486,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.2,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.04,
             "unit": "Second"
           }
         ]
