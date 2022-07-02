@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1656789662673,
+  "lastUpdate": 1656791368773,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -13767,6 +13767,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.034,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "da697276f0295c60595c5d5547801d20ac31787a",
+          "message": "Merge pull request #2976 from yutkat/v42.330\n\nwezterm: Update the tab bar",
+          "timestamp": "2022-07-03T04:46:56+09:00",
+          "tree_id": "94da857623e41582d26fec402fd786233e2d61f8",
+          "url": "https://github.com/yutkat/dotfiles/commit/da697276f0295c60595c5d5547801d20ac31787a"
+        },
+        "date": 1656791368473,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.033,
             "unit": "Second"
           }
         ]
