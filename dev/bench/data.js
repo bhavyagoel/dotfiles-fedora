@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1656652253668,
+  "lastUpdate": 1656789662673,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -13733,6 +13733,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.04,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a8da0b5270e57150f274299cf2f1c68d3f35f0a5",
+          "message": "Merge pull request #2975 from yutkat/v42.329\n\nwezterm: Use the retro tab bar",
+          "timestamp": "2022-07-03T04:18:23+09:00",
+          "tree_id": "e594bc6f2714872ab0020d972886f87ad2bb0569",
+          "url": "https://github.com/yutkat/dotfiles/commit/a8da0b5270e57150f274299cf2f1c68d3f35f0a5"
+        },
+        "date": 1656789662350,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.034,
             "unit": "Second"
           }
         ]
