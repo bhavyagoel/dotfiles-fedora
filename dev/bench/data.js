@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1656899669811,
+  "lastUpdate": 1656900671859,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -13869,6 +13869,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.033,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fb0209b0ef27224f9165b80babc77a0b13044e07",
+          "message": "Merge pull request #2980 from yutkat/v42.333\n\nwezterm: Split the wezterm.on",
+          "timestamp": "2022-07-04T11:06:57+09:00",
+          "tree_id": "a2857d506b0cdc542ec2ae7ce117664f7edf016c",
+          "url": "https://github.com/yutkat/dotfiles/commit/fb0209b0ef27224f9165b80babc77a0b13044e07"
+        },
+        "date": 1656900670673,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.22,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.04,
             "unit": "Second"
           }
         ]
