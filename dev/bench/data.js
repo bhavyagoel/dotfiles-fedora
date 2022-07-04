@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1656917920326,
+  "lastUpdate": 1656924163399,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -13937,6 +13937,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.03,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0680e87d85de60186bbfafbe026c74dc2adb070b",
+          "message": "Merge pull request #2982 from yutkat/v42.335\n\ninstaller: Fix the permission on ~/.local (#2977)",
+          "timestamp": "2022-07-04T17:39:54+09:00",
+          "tree_id": "2a27837de8fbb57abd2ce8e9484eb4ac82d2bfee",
+          "url": "https://github.com/yutkat/dotfiles/commit/0680e87d85de60186bbfafbe026c74dc2adb070b"
+        },
+        "date": 1656924163079,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.04,
             "unit": "Second"
           }
         ]
