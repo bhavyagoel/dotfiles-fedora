@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1656900671859,
+  "lastUpdate": 1656917920326,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -13903,6 +13903,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.04,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "70ac2dde82f0c1310b905c3df02d324faecbd523",
+          "message": "Merge pull request #2981 from yutkat/v42.333\n\ninstaller: Fixed fctix problem on fedora (#2977)",
+          "timestamp": "2022-07-04T15:55:52+09:00",
+          "tree_id": "00843fcc2acc37d77d3bfdf03736449526c1af6a",
+          "url": "https://github.com/yutkat/dotfiles/commit/70ac2dde82f0c1310b905c3df02d324faecbd523"
+        },
+        "date": 1656917919814,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.16,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.03,
             "unit": "Second"
           }
         ]
