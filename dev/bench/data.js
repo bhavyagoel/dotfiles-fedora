@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1656895884118,
+  "lastUpdate": 1656899669811,
   "repoUrl": "https://github.com/yutkat/dotfiles",
   "entries": {
     "Benchmark": [
@@ -13835,6 +13835,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "neovim load time",
             "value": 0.032,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8683947+yutkat@users.noreply.github.com",
+            "name": "Yuta Katayama",
+            "username": "yutkat"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fb1fbd4d0d8fbdf55c9a70e1efe6fc30dc205070",
+          "message": "Merge pull request #2979 from yutkat/v42.332\n\nwezterm: Split the config of keybinds",
+          "timestamp": "2022-07-04T10:51:55+09:00",
+          "tree_id": "dbff52e2fce9491a65d28f67122f6cfa9ac9b483",
+          "url": "https://github.com/yutkat/dotfiles/commit/fb1fbd4d0d8fbdf55c9a70e1efe6fc30dc205070"
+        },
+        "date": 1656899669508,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh load time",
+            "value": 0.18,
+            "unit": "Second"
+          },
+          {
+            "name": "neovim load time",
+            "value": 0.033,
             "unit": "Second"
           }
         ]
