@@ -50,7 +50,7 @@ My home dotfiles
 1. neovim plugin install
 
    ```bash
-   vi +PackerSync +qall
+   vi --headless -c 'Lazy! sync' -c 'qall'
    ```
 
 1. Enjoy!
@@ -95,7 +95,7 @@ If you do not want to dirty your home directory
 1. neovim plugin install
 
    ```bash
-   vi +PackerSync +qall
+   vi --headless -c 'Lazy! sync' -c 'qall'
    ```
 
 ## Components
@@ -103,7 +103,7 @@ If you do not want to dirty your home directory
 - zsh
 - neovim
 - wezterm
-- (optional) i3-gaps, sway
+- (optional) i3, sway
 
 ## Usage
 
