@@ -1,6 +1,6 @@
 # dotfiles
 
-[![total lines](https://tokei.ekzhang.com/b1/github/yutkat/dotfiles)](https://github.com/XAMPPRocky/tokei)
+[![total lines](https://tokei.rs/b1/github/yutkat/dotfiles)](https://github.com/XAMPPRocky/tokei)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/yutkat/dotfiles)
 ![GitHub repo size](https://img.shields.io/github/repo-size/yutkat/dotfiles)
 
@@ -128,7 +128,7 @@ If you do not want to dirty your home directory
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yutkat/dotfiles&type=Date)](https://star-history.com/#yutkat/dotfiles&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=yutkat/dotfiles&type=Date&theme=dark)](https://star-history.com/#yutkat/dotfiles&Date)
 
 ## Benchmarks
 
